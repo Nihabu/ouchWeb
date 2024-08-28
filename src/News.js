@@ -6,7 +6,7 @@ import { headerHeight } from "./vars";
 function News(props) {
 	return (
 		<ThemeProvider theme={theme}>
-			<Box sx={{ bgcolor: "background.blue", height: `calc(100vh - ${headerHeight})` }}>
+			<Box sx={{ bgcolor: "background.white", height: `calc(100vh - ${headerHeight})` }}>
 				<Box className="main" sx={{ height: 1, display: "flex", flexDirection: "column", mx: 5 }}>
 					<Box sx={{ color: "text.primary" }}>
 						<h1>News</h1>

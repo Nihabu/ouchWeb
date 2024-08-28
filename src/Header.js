@@ -1,8 +1,8 @@
 import React from "react";
 import { Box, ThemeProvider } from "@mui/system";
 import { NavLink } from "react-router-dom";
-import LoginButton from "./LogInButton";
-import LogoutButton from "./LogOutButton";
+// import LoginButton from "./LogInButton";
+// import LogoutButton from "./LogOutButton";
 import theme from "./theme";
 
 function Header(props) {
@@ -11,20 +11,14 @@ function Header(props) {
 			<Box
 				className="Header-container"
 				sx={{
-					bgcolor: "background.blue",
+					bgcolor: "background.white",
 					color: "logoColors.blue",
 					height: props.headerHeight,
 					display: "flex",
 				}}
 			>
 				<NavLink to="/">
-					<img
-						className="logo"
-						src="/OUCH_Logo.jpg"
-						//src="https://scontent.fosl3-1.fna.fbcdn.net/v/t39.30808-6/441951914_122110706396314563_2080403929050843264_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=5f2048&_nc_ohc=qVZWTroUZxgQ7kNvgFr2cwY&_nc_ht=scontent.fosl3-1.fna&oh=00_AYBl4ytWB3edWT0d2v_ht9jYmATov5jc__eRLUqe3sX0Ww&oe=6679D9A2"
-						alt="OUCH Logo"
-						style={{ height: "100%" }}
-					/>
+					<img className="logo" src="/images/OUCH_Logo.jpg" alt="OUCH Logo" style={{ height: "100%" }} />
 				</NavLink>
 				<Box
 					className="Button-container"
@@ -36,7 +30,7 @@ function Header(props) {
 					}}
 				>
 					<NavLink
-						to="/resources"
+						to="/"
 						style={({ isActive }) => {
 							return {
 								color: isActive ? "#E47313" : "#03B7D0",
@@ -45,7 +39,7 @@ function Header(props) {
 							};
 						}}
 					>
-						Resources
+						Home
 					</NavLink>
 					<NavLink
 						to="/news"
@@ -60,6 +54,18 @@ function Header(props) {
 						News
 					</NavLink>
 					<NavLink
+						to="/resources"
+						style={({ isActive }) => {
+							return {
+								color: isActive ? "#E47313" : "#03B7D0",
+								fontWeight: isActive ? "bold" : "",
+								textDecoration: isActive ? "underline" : "none",
+							};
+						}}
+					>
+						Resources
+					</NavLink>
+					<NavLink
 						to="/ouch"
 						style={({ isActive }) => {
 							return {
@@ -72,12 +78,12 @@ function Header(props) {
 						OUCH
 					</NavLink>
 				</Box>
-				<Box>
+				{/* <Box>
 					<LoginButton />
 				</Box>
 				<Box>
 					<LogoutButton />
-				</Box>
+				</Box> */}
 			</Box>
 		</ThemeProvider>
 	);
