@@ -17,7 +17,7 @@ const practiceList = [
 		locationLink: "https://maps.app.goo.gl/t8c1uaQKv7pKMAxS9",
 		instagram: "https://www.instagram.com/brickers.ultimate.frisbee/",
 		website: "https://www.furuset.no/vare-idretter/ultimate-frisbee",
-		facebook: null,
+		facebook: "https://www.facebook.com/BrickersUltimateFrisbeeOslo/",
 		time: "Monday 18:30-20:30, Thursday 18:30-20:30",
 		info: "Mondays on Ekeberg Beach FieldMondays on Ekeberg Beach FieldMondays on Ekeberg Beach FieldMondays on Ekeberg Beach FieldMondays on Ekeberg Beach FieldMondays on Ekeberg Beach FieldMondays on Ekeberg Beach FieldMondays on Ekeberg Beach FieldMondays on Ekeberg Beach FieldMondays on Ekeberg Beach FieldMondays on Ekeberg Beach FieldMondays on Ekeberg Beach FieldMondays on Ekeberg Beach FieldMondays on Ekeberg Beach FieldMondays on Ekeberg Beach FieldMondays on Ekeberg Beach FieldMondays on Ekeberg Beach FieldMondays on Ekeberg Beach FieldMondays on Ekeberg Beach FieldMondays on Ekeberg Beach FieldMondays on Ekeberg Beach FieldMondays on Ekeberg Beach FieldMondays on Ekeberg Beach FieldMondays on Ekeberg Beach FieldMondays on Ekeberg Beach FieldMondays on Ekeberg Beach FieldMondays on Ekeberg Beach FieldMondays on Ekeberg Beach FieldMondays on Ekeberg Beach FieldMondays on Ekeberg Beach FieldMondays on Ekeberg Beach FieldMondays on Ekeberg Beach FieldMondays on Ekeberg Beach FieldMondays on Ekeberg Beach FieldMondays on Ekeberg Beach FieldMondays on Ekeberg Beach FieldMondays on Ekeberg Beach FieldMondays on Ekeberg Beach FieldMondays on Ekeberg Beach Field",
 		picture: "/images/Brickers_Team_Picture.jpg",

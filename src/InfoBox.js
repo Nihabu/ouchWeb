@@ -33,17 +33,20 @@ function InfoBox(props) {
 							overflow: "auto",
 						}}
 					>
-						<b>Team: </b>
-						{obj.team}
-						<b>Location: </b>{" "}
-						<a
-							target="_blank"
-							rel="noopener noreferrer"
-							href={obj.locationLink}
-							style={{ color: "inherit" }}
-						>
-							{obj.location}
-						</a>
+						<div>
+							<b>Team: </b> {obj.team}
+						</div>
+						<div>
+							<b>Location: </b>{" "}
+							<a
+								target="_blank"
+								rel="noopener noreferrer"
+								href={obj.locationLink}
+								style={{ color: "inherit" }}
+							>
+								{obj.location}
+							</a>
+						</div>
 						<b>Times: </b>{" "}
 						{obj.time.split(",").map((time, idx) => (
 							<Box style={{ padding: "0 0 0 1rem" }} key={idx}>
@@ -63,8 +66,7 @@ function InfoBox(props) {
 							sx={{
 								display: "flex",
 								flexDirection: "row",
-								justifyContent: "space-evenly",
-								margin: "1rem",
+								justifyContent: "start",
 							}}
 						>
 							<a
