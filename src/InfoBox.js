@@ -1,12 +1,12 @@
 import React from "react";
 import { Box, ThemeProvider } from "@mui/system";
 import theme from "./theme";
-import practiceList from "./teamOverview";
+import teamList from "./teamOverview";
 
 function InfoBox(props) {
 	return (
 		<ThemeProvider theme={theme}>
-			{practiceList.map((obj, i) => (
+			{teamList.map((obj, i) => (
 				<Box
 					key={i}
 					sx={{
