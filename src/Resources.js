@@ -11,8 +11,17 @@ function Resources(props) {
 					<Box sx={{ color: "text.primary" }}>
 						<h1>Resources</h1>
 					</Box>
-					<Box sx={{ color: "text.secondary" }}>
-						<p>This is where I'd put my resources, if I had any... </p>
+					<Box>
+						<iframe
+							width="600"
+							height="400"
+							src="https://www.youtube.com/embed/PrinnxHyWlo?si=_KnIVg0hNRnytCd0"
+							title="YouTube video player"
+							frameborder="0"
+							allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+							referrerpolicy="strict-origin-when-cross-origin"
+							allowfullscreen
+						></iframe>
 					</Box>
 				</Box>
 			</Box>
