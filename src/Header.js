@@ -1,8 +1,6 @@
 import React from "react";
 import { Box, ThemeProvider } from "@mui/system";
 import { NavLink } from "react-router-dom";
-// import LoginButton from "./LogInButton";
-// import LogoutButton from "./LogOutButton";
 import theme from "./theme";
 
 function Header(props) {
@@ -78,12 +76,6 @@ function Header(props) {
 						OUCH
 					</NavLink>
 				</Box>
-				{/* <Box>
-					<LoginButton />
-				</Box>
-				<Box>
-					<LogoutButton />
-				</Box> */}
 			</Box>
 		</ThemeProvider>
 	);

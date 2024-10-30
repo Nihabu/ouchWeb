@@ -3,6 +3,7 @@ import { Box, ThemeProvider } from "@mui/system";
 import theme from "./theme";
 import { headerHeight } from "./vars";
 import InfoBox from "./InfoBox";
+import InfoBoxSmall from "./InfoBoxSmall";
 
 function MainBody(props) {
 	return (
@@ -13,7 +14,8 @@ function MainBody(props) {
 						<h1>Welcome to the Oslo Ultimate Community Hub</h1>
 						<p>Overview over practice times in the Oslo area</p>
 					</Box>
-					<InfoBox />
+					{/* <InfoBox /> */}
+					<InfoBoxSmall />
 				</Box>
 			</Box>
 		</ThemeProvider>
