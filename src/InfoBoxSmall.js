@@ -10,9 +10,6 @@ function InfoBoxSmall(props) {
 				<Box
 					key={i}
 					sx={{
-						// display: "flex",
-						// justifyContent: "space-start",
-						// position: "relative",
 						color: "text.secondary",
 						bgcolor: `${obj.color}`,
 						minHeight: 200,
@@ -35,7 +32,6 @@ function InfoBoxSmall(props) {
 								display: "flex",
 								flexDirection: "column",
 								minWidth: 300,
-								// marginRight: 5,
 								overflow: "auto",
 							}}
 						>

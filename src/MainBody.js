@@ -6,6 +6,8 @@ import InfoBox from "./InfoBox";
 import InfoBoxSmall from "./InfoBoxSmall";
 
 function MainBody(props) {
+	const componentToRender = window.innerWidth < 500 ? <InfoBoxSmall /> : <InfoBox />;
+
 	return (
 		<ThemeProvider theme={theme}>
 			<Box sx={{ bgcolor: "background.white", height: `calc(100vh - ${headerHeight})` }}>
@@ -14,8 +16,8 @@ function MainBody(props) {
 						<h1>Welcome to the Oslo Ultimate Community Hub</h1>
 						<p>Overview over practice times in the Oslo area</p>
 					</Box>
-					{/* <InfoBox /> */}
-					<InfoBoxSmall />
+					{window.innerWidth <= 500 && <InfoBoxSmall />}
+					{window.innerWidth > 500 && <InfoBox />}
 				</Box>
 			</Box>
 		</ThemeProvider>
