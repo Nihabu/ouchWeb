@@ -37,14 +37,17 @@ function InfoBox(props) {
 						</div>
 						<div>
 							<b>Location: </b>{" "}
-							<a
-								target="_blank"
-								rel="noopener noreferrer"
-								href={obj.locationLink}
-								style={{ color: "inherit" }}
-							>
-								{obj.location}
-							</a>
+							{obj.location.map((loc, i) => (
+								<a
+									target="_blank"
+									rel="noopener noreferrer"
+									href={obj.locationLink[i]}
+									style={{ color: "inherit" }}
+								>
+									{obj.location[i]}
+									<br />
+								</a>
+							))}
 						</div>
 						<b>Times: </b>{" "}
 						{obj.time.split(",").map((time, idx) => (
