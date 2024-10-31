@@ -27,7 +27,8 @@ function InfoBox(props) {
 						sx={{
 							display: "flex",
 							flexDirection: "column",
-							width: "15%",
+
+							width: "20%",
 							marginRight: 5,
 							overflow: "auto",
 						}}
@@ -69,8 +70,6 @@ function InfoBox(props) {
 					>
 						<Box
 							sx={{
-								maxWidth: 500,
-								maxHeight: 200,
 								overflow: "auto",
 							}}
 						>
@@ -125,9 +124,9 @@ function InfoBox(props) {
 					{obj.picture ? (
 						<Box
 							sx={{
-								width: "25%",
 								display: "flex",
 								justifyContent: "end",
+								width: "25%",
 							}}
 						>
 							<img
