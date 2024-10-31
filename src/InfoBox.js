@@ -11,7 +11,7 @@ function InfoBox(props) {
 					key={i}
 					sx={{
 						display: "flex",
-						justifyContent: "space-start",
+						justifyContent: "space-between",
 						position: "relative",
 						color: "text.secondary",
 						bgcolor: `${obj.color}`,
@@ -27,7 +27,7 @@ function InfoBox(props) {
 						sx={{
 							display: "flex",
 							flexDirection: "column",
-							minWidth: 300,
+							width: "15%",
 							marginRight: 5,
 							overflow: "auto",
 						}}
@@ -43,6 +43,7 @@ function InfoBox(props) {
 									rel="noopener noreferrer"
 									href={obj.locationLink[i]}
 									style={{ color: "inherit" }}
+									key={i}
 								>
 									{obj.location[i]}
 									<br />
@@ -58,9 +59,21 @@ function InfoBox(props) {
 					</Box>
 					<Box
 						className="info_social_wrapper"
-						sx={{ display: "flex", flexDirection: "column", width: "40%", justifyContent: "space-between" }}
+						sx={{
+							display: "flex",
+							flexDirection: "column",
+							justifyContent: "space-between",
+							flexWrap: "wrap",
+							width: "40%",
+						}}
 					>
-						<Box sx={{ maxWidth: 500, maxHeight: 200, overflow: "auto" }}>
+						<Box
+							sx={{
+								maxWidth: 500,
+								maxHeight: 200,
+								overflow: "auto",
+							}}
+						>
 							{obj.info ? <b>Information: </b> : ""}
 							{obj.info}
 						</Box>
@@ -110,18 +123,21 @@ function InfoBox(props) {
 						</Box>
 					</Box>
 					{obj.picture ? (
-						<img
-							src={obj.picture}
-							alt={`${obj.team}`}
-							style={{
-								opacity: 0.6,
-								position: "absolute",
-								top: 0,
-								right: 0,
-								width: "33%",
-								height: "auto",
+						<Box
+							sx={{
+								width: "25%",
+								display: "flex",
+								justifyContent: "end",
 							}}
-						></img>
+						>
+							<img
+								src={obj.picture}
+								alt={`${obj.team}`}
+								style={{
+									opacity: 0.6,
+								}}
+							></img>
+						</Box>
 					) : (
 						" "
 					)}

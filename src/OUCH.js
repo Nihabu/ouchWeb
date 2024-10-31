@@ -17,18 +17,25 @@ function OUCH(props) {
 							Frisbee community around Oslo.
 						</p>
 						<p>
-							It should serve as a communication link between the clubs and the overarching Norwegian Ultimate
-							Commitee, as well as a resource hub for the clubs.
+							It should serve as a communication link between the clubs and the overarching Norwegian
+							Ultimate Commitee, as well as a resource hub for the clubs.
 						</p>
 						<h3> The Board </h3>
-						<Box sx={{ display: "flex", justifyContent: "space-evenly" }}>
+						<Box
+							sx={{
+								display: "flex",
+								justifyContent: "space-evenly",
+								gap: "1rem",
+								flexWrap: "wrap",
+							}}
+						>
 							<Box sx={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
 								<img
 									style={{ width: "200px", height: "200px", borderRadius: "50%" }}
-									src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.L8YB2Bg0TO_vlaiZlMJjzQHaFy%26pid%3DApi&f=1&ipt=750204ae2b4ecc4c8bc03a1978f9d055b8ef1eadaefa60cc765167bb57fc3ec9&ipo=images"
+									src="/images/OUCHPresident.jpg"
 									alt="Board member 1"
 								></img>
-								<p>President Daniel</p>
+								<p>President: Daniel</p>
 							</Box>
 							<Box sx={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
 								<img
@@ -36,7 +43,7 @@ function OUCH(props) {
 									src="/images/OUCHSecretary.jpeg"
 									alt="secretary"
 								></img>
-								<p>Secretary Kate</p>
+								<p>Secretary: Kate</p>
 							</Box>
 							<Box sx={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
 								<img
@@ -44,7 +51,7 @@ function OUCH(props) {
 									src="/images/OUCHSoMe.jpeg"
 									alt="some"
 								></img>
-								<p>Social Media Ricarda</p>
+								<p>Social Media: Ricarda</p>
 							</Box>
 							<Box sx={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
 								<img
@@ -52,7 +59,7 @@ function OUCH(props) {
 									src="/images/OUCHSoMe2.jpeg"
 									alt="some2"
 								></img>
-								<p>Social Media Justyna</p>
+								<p>Social Media: Justyna</p>
 							</Box>
 							<Box sx={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
 								<img
@@ -60,7 +67,7 @@ function OUCH(props) {
 									src="/images/OUCHOutdoor.jpeg"
 									alt="outdoor"
 								></img>
-								<p>Outdoor Coordinator Daniel</p>
+								<p>Outdoor Coordinator: Daniel</p>
 							</Box>
 							<Box sx={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
 								<img
@@ -68,11 +75,18 @@ function OUCH(props) {
 									src="/images/OUCHWebsite.jpeg"
 									alt="website"
 								></img>
-								<p>Website Director Henrik</p>
+								<p>Website Director: Henrik</p>
 							</Box>
 						</Box>
 						<h3>The Club Representatives</h3>
-						<Box sx={{ display: "flex", justifyContent: "space-evenly" }}>
+						<Box
+							sx={{
+								display: "flex",
+								justifyContent: "space-evenly",
+								gap: "1rem",
+								flexWrap: "wrap",
+							}}
+						>
 							<Box sx={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
 								<img
 									style={{ width: "200px", height: "200px", borderRadius: "50%" }}
