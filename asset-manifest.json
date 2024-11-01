@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/ouchWeb/static/css/main.e6c13ad2.css",
-    "main.js": "/ouchWeb/static/js/main.69961592.js",
+    "main.js": "/ouchWeb/static/js/main.13486024.js",
     "index.html": "/ouchWeb/index.html",
     "main.e6c13ad2.css.map": "/ouchWeb/static/css/main.e6c13ad2.css.map",
-    "main.69961592.js.map": "/ouchWeb/static/js/main.69961592.js.map"
+    "main.13486024.js.map": "/ouchWeb/static/js/main.13486024.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.69961592.js"
+    "static/js/main.13486024.js"
   ]
 }
