@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ouchWeb/static/css/main.e6c13ad2.css",
+    "main.js": "/ouchWeb/static/js/main.9554ddf1.js",
+    "index.html": "/ouchWeb/index.html",
+    "main.e6c13ad2.css.map": "/ouchWeb/static/css/main.e6c13ad2.css.map",
+    "main.9554ddf1.js.map": "/ouchWeb/static/js/main.9554ddf1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.9554ddf1.js"
+  ]
+}
