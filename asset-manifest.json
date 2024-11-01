@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/ouchWeb/static/css/main.e6c13ad2.css",
-    "main.js": "/ouchWeb/static/js/main.a746efda.js",
+    "main.js": "/ouchWeb/static/js/main.b39f5916.js",
     "static/media/OUCH_Logo.jpg": "/ouchWeb/static/media/OUCH_Logo.d605095ba931f0907729.jpg",
     "index.html": "/ouchWeb/index.html",
     "main.e6c13ad2.css.map": "/ouchWeb/static/css/main.e6c13ad2.css.map",
-    "main.a746efda.js.map": "/ouchWeb/static/js/main.a746efda.js.map"
+    "main.b39f5916.js.map": "/ouchWeb/static/js/main.b39f5916.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.a746efda.js"
+    "static/js/main.b39f5916.js"
   ]
 }
