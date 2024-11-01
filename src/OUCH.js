@@ -2,6 +2,16 @@ import React from "react";
 import { ThemeProvider, Box } from "@mui/system";
 import theme from "./theme";
 import { headerHeight } from "./vars";
+import President from "./images/OUCHPresident.jpg";
+import Secretary from "./images/OUCHSecretary.jpeg";
+import SoMe from "./images/OUCHSoMe.jpeg";
+import SoMe2 from "./images/OUCHSoMe2.jpeg";
+import Outdoor from "./images/OUCHOutdoor.jpeg";
+import Website from "./images/OUCHWebsite.jpeg";
+import ClubRep_Brickers from "./images/ClubRep_Brickers.jpeg";
+import ClubRep_Ekeberg from "./images/ClubRep_Ekeberg.jpeg";
+import ClubRep_OSI from "./images/ClubRep_OSI.jpeg";
+import ClubRep_Pancake from "./images/ClubRep_Pancake.jpeg";
 
 function OUCH(props) {
 	return (
@@ -32,15 +42,15 @@ function OUCH(props) {
 							<Box sx={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
 								<img
 									style={{ width: "200px", height: "200px", borderRadius: "50%" }}
-									src="/images/OUCHPresident.jpg"
-									alt="Board member 1"
+									src={President}
+									alt="OUCH President"
 								></img>
 								<p>President: Daniel</p>
 							</Box>
 							<Box sx={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
 								<img
 									style={{ width: "200px", height: "200px", borderRadius: "50%" }}
-									src="/images/OUCHSecretary.jpeg"
+									src={Secretary}
 									alt="secretary"
 								></img>
 								<p>Secretary: Kate</p>
@@ -48,7 +58,7 @@ function OUCH(props) {
 							<Box sx={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
 								<img
 									style={{ width: "200px", height: "200px", borderRadius: "50%" }}
-									src="/images/OUCHSoMe.jpeg"
+									src={SoMe}
 									alt="some"
 								></img>
 								<p>Social Media: Ricarda</p>
@@ -56,7 +66,7 @@ function OUCH(props) {
 							<Box sx={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
 								<img
 									style={{ width: "200px", height: "200px", borderRadius: "50%" }}
-									src="/images/OUCHSoMe2.jpeg"
+									src={SoMe2}
 									alt="some2"
 								></img>
 								<p>Social Media: Justyna</p>
@@ -64,7 +74,7 @@ function OUCH(props) {
 							<Box sx={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
 								<img
 									style={{ width: "200px", height: "200px", borderRadius: "50%" }}
-									src="/images/OUCHOutdoor.jpeg"
+									src={Outdoor}
 									alt="outdoor"
 								></img>
 								<p>Outdoor Coordinator: Daniel</p>
@@ -72,7 +82,7 @@ function OUCH(props) {
 							<Box sx={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
 								<img
 									style={{ width: "200px", height: "200px", borderRadius: "50%" }}
-									src="/images/OUCHWebsite.jpeg"
+									src={Website}
 									alt="website"
 								></img>
 								<p>Website Director: Henrik</p>
@@ -90,7 +100,7 @@ function OUCH(props) {
 							<Box sx={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
 								<img
 									style={{ width: "200px", height: "200px", borderRadius: "50%" }}
-									src="/images/ClubRep_Ekeberg.jpeg"
+									src={ClubRep_Ekeberg}
 									alt="ekeberg"
 								></img>
 								<p>Ekeberg: Alexandre</p>
@@ -98,7 +108,7 @@ function OUCH(props) {
 							<Box sx={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
 								<img
 									style={{ width: "200px", height: "200px", borderRadius: "50%" }}
-									src="/images/ClubRep_OSI.jpeg"
+									src={ClubRep_OSI}
 									alt="osi"
 								></img>
 								<p>OSI: Sveinn</p>
@@ -106,7 +116,7 @@ function OUCH(props) {
 							<Box sx={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
 								<img
 									style={{ width: "200px", height: "200px", borderRadius: "50%" }}
-									src="/images/ClubRep_Pancake.jpeg"
+									src={ClubRep_Pancake}
 									alt="pancake"
 								></img>
 								<p>Pancake: Juan</p>
@@ -114,7 +124,7 @@ function OUCH(props) {
 							<Box sx={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
 								<img
 									style={{ width: "200px", height: "200px", borderRadius: "50%" }}
-									src="/images/ClubRep_Brickers.jpeg"
+									src={ClubRep_Brickers}
 									alt="brickers"
 								></img>
 								<p>Brickers: Alexander</p>

@@ -8,7 +8,7 @@ const teamList = [
 		facebook: "https://www.facebook.com/groups/692866460789756",
 		time: "Monday 20:00-22:00, Wednesday 20:30-22:15",
 		info: null,
-		picture: "/images/Ekeberg_Team_Picture.jpg",
+		picture: true,
 		color: "rgba(0, 243, 16, 0.1)",
 	},
 	{
@@ -20,7 +20,7 @@ const teamList = [
 		facebook: "https://www.facebook.com/profile.php?id=61564492610385",
 		time: "Thursday 17:45",
 		info: "Oslos newest Ultimate team.",
-		picture: "/images/Baerum_Team_Picture.jpg",
+		picture: true,
 		color: "rgba(192, 210, 64, 0.1)", //"rgba(243, 255, 194, 0.1)",
 	},
 	{
@@ -32,7 +32,7 @@ const teamList = [
 		facebook: "https://www.facebook.com/groups/125485077480296",
 		time: "Wednesday 17:00 - 18:30",
 		info: "If you are currently studying in Oslo, check out this great student team!",
-		picture: "/images/OSI_Team_Picture.jpg",
+		picture: true,
 		color: "rgba(246, 164, 169, 0.1)",
 	},
 	{
@@ -44,7 +44,7 @@ const teamList = [
 		facebook: "https://www.facebook.com/groups/109301512507959",
 		time: "Monday 19:30-21:30, Thursday 20:00",
 		info: "Monday practice is at Kjenn-hallen (Mailandveien 24, 1470 Lørenskog). Thursdays at Fjellhamarhallen.",
-		picture: "/images/Pancake_Team_Picture.jpg",
+		picture: true,
 		color: "rgba(243, 5, 21, 0.1)",
 	},
 	{
@@ -56,7 +56,7 @@ const teamList = [
 		facebook: "https://www.facebook.com/BrickersUltimateFrisbeeOslo/",
 		time: "Monday 21:30-23:00, Wednesday 21:30-23:00",
 		info: null,
-		picture: "/images/Brickers_Team_Picture.jpg",
+		picture: true,
 		color: "background.blue",
 	},
 	// {

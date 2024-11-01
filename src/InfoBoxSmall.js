@@ -2,6 +2,9 @@ import React from "react";
 import { Box, ThemeProvider } from "@mui/system";
 import theme from "./theme";
 import teamList from "./teamOverview";
+import internet_icon from "./images/internet_icon.png";
+import instagram_icon from "./images/instagram_icon.png";
+import facebook_icon from "./images/facebook_icon.png";
 
 function InfoBoxSmall(props) {
 	return (
@@ -70,9 +73,9 @@ function InfoBoxSmall(props) {
 								style={{ color: "inherit", marginBottom: "-0.5rem" }}
 							>
 								{obj.website ? (
-									<img src="\images\internet_icon.png" style={{ scale: "0.5" }} />
+									<img src={internet_icon} style={{ scale: "0.5" }} alt="icon" />
 								) : (
-									<img src="\images\internet_icon.png" style={{ scale: "0.5", opacity: 0.2 }} />
+									<img src={internet_icon} style={{ scale: "0.5", opacity: 0.2 }} alt="icon" />
 								)}
 							</a>
 							<a
@@ -82,9 +85,9 @@ function InfoBoxSmall(props) {
 								style={{ color: "inherit", marginBottom: "-0.5rem" }}
 							>
 								{obj.instagram ? (
-									<img src="\images\instagram_icon.png" style={{ scale: "0.5" }} />
+									<img src={instagram_icon} style={{ scale: "0.5" }} alt="icon" />
 								) : (
-									<img src="\images\instagram_icon.png" style={{ scale: "0.5", opacity: 0.2 }} />
+									<img src={instagram_icon} style={{ scale: "0.5", opacity: 0.2 }} alt="icon" />
 								)}
 							</a>
 							<a
@@ -94,9 +97,9 @@ function InfoBoxSmall(props) {
 								style={{ color: "inherit", marginBottom: "-0.5rem" }}
 							>
 								{obj.facebook ? (
-									<img src="\images\facebook_icon.png" style={{ scale: "0.5" }} />
+									<img src={facebook_icon} style={{ scale: "0.5" }} alt="icon" />
 								) : (
-									<img src="\images\facebook_icon.png" style={{ scale: "0.5", opacity: 0.2 }} />
+									<img src={facebook_icon} style={{ scale: "0.5", opacity: 0.2 }} alt="icon" />
 								)}
 							</a>
 						</Box>

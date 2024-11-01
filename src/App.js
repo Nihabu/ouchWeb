@@ -1,8 +1,8 @@
 import "./App.css";
-import Header from "./Header";
+// import Header from "./Header";
 import MainBody from "./MainBody";
 
-const headerHeight = "150px";
+// const headerHeight = "150px";
 
 function App() {
 	return (

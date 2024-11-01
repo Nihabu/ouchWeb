@@ -2,6 +2,7 @@ import React from "react";
 import { Box, ThemeProvider } from "@mui/system";
 import { NavLink } from "react-router-dom";
 import theme from "./theme";
+import logo from "./images/OUCH_Logo.jpg";
 
 function Header(props) {
 	return (
@@ -15,8 +16,8 @@ function Header(props) {
 					display: "flex",
 				}}
 			>
-				<NavLink to="/">
-					<img className="logo" src="/images/OUCH_Logo.jpg" alt="OUCH Logo" style={{ height: "100%" }} />
+				<NavLink to="/ouchWeb">
+					<img className="logo" src={logo} alt="OUCH Logo" style={{ height: "100%" }} />
 				</NavLink>
 				<Box
 					className="Button-container"
@@ -28,7 +29,7 @@ function Header(props) {
 					}}
 				>
 					<NavLink
-						to="/"
+						to="/ouchWeb"
 						style={({ isActive }) => {
 							return {
 								color: isActive ? "#E47313" : "#03B7D0",

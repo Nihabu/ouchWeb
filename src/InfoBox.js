@@ -2,8 +2,23 @@ import React from "react";
 import { Box, ThemeProvider } from "@mui/system";
 import theme from "./theme";
 import teamList from "./teamOverview";
+import internet_icon from "./images/internet_icon.png";
+import instagram_icon from "./images/instagram_icon.png";
+import facebook_icon from "./images/facebook_icon.png";
+import Ekeberg_Team_Picture from "./images/Ekeberg_Team_Picture.jpg";
+import Baerum_Team_Picture from "./images/Baerum_Team_Picture.jpg";
+import OSI_Team_Picture from "./images/OSI_Team_Picture.jpg";
+import Pancake_Team_Picture from "./images/Pancake_Team_Picture.jpg";
+import Brickers_Team_Picture from "./images/Brickers_Team_Picture.jpg";
 
 function InfoBox(props) {
+	const images = {
+		Ekeberg: Ekeberg_Team_Picture,
+		Bærum: Baerum_Team_Picture,
+		OSI: OSI_Team_Picture,
+		Pancake: Pancake_Team_Picture,
+		Brickers: Brickers_Team_Picture,
+	};
 	return (
 		<ThemeProvider theme={theme}>
 			{teamList.map((obj, i) => (
@@ -90,9 +105,13 @@ function InfoBox(props) {
 								style={{ color: "inherit" }}
 							>
 								{obj.website ? (
-									<img src="\images\internet_icon.png" style={{ scale: "0.5" }} />
+									<img src={internet_icon} style={{ scale: "0.5" }} alt="internet icon" />
 								) : (
-									<img src="\images\internet_icon.png" style={{ scale: "0.5", opacity: 0.2 }} />
+									<img
+										src={internet_icon}
+										style={{ scale: "0.5", opacity: 0.2 }}
+										alt="internet icon"
+									/>
 								)}
 							</a>
 							<a
@@ -102,9 +121,13 @@ function InfoBox(props) {
 								style={{ color: "inherit" }}
 							>
 								{obj.instagram ? (
-									<img src="\images\instagram_icon.png" style={{ scale: "0.5" }} />
+									<img src={instagram_icon} style={{ scale: "0.5" }} alt="instagram icon" />
 								) : (
-									<img src="\images\instagram_icon.png" style={{ scale: "0.5", opacity: 0.2 }} />
+									<img
+										src={instagram_icon}
+										style={{ scale: "0.5", opacity: 0.2 }}
+										alt="instagram icon"
+									/>
 								)}
 							</a>
 							<a
@@ -114,9 +137,13 @@ function InfoBox(props) {
 								style={{ color: "inherit" }}
 							>
 								{obj.facebook ? (
-									<img src="\images\facebook_icon.png" style={{ scale: "0.5" }} />
+									<img src={facebook_icon} style={{ scale: "0.5" }} alt="facebook icon" />
 								) : (
-									<img src="\images\facebook_icon.png" style={{ scale: "0.5", opacity: 0.2 }} />
+									<img
+										src={facebook_icon}
+										style={{ scale: "0.5", opacity: 0.2 }}
+										alt="facebook icon"
+									/>
 								)}
 							</a>
 						</Box>
@@ -130,7 +157,7 @@ function InfoBox(props) {
 							}}
 						>
 							<img
-								src={obj.picture}
+								src={images[obj.team]}
 								alt={`${obj.team}`}
 								style={{
 									opacity: 0.6,
