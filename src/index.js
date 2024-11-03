@@ -26,6 +26,10 @@ const router = createBrowserRouter([
 		children: [
 			// { path: "/*", element: <MainBody /> },
 			{
+				path: "/",
+				element: <MainBody />,
+			},
+			{
 				path: "/ouchWeb",
 				element: <MainBody />,
 			},
