@@ -19,6 +19,7 @@ function InfoBox(props) {
 		Pancake: Pancake_Team_Picture,
 		Brickers: Brickers_Team_Picture,
 	};
+
 	return (
 		<ThemeProvider theme={theme}>
 			{teamList.map((obj, i) => (
@@ -26,26 +27,26 @@ function InfoBox(props) {
 					key={i}
 					sx={{
 						display: "flex",
+						flexDirection: { xs: "column", sm: "row", md: "row", lg: "row", xl: "row" },
 						justifyContent: "space-between",
 						position: "relative",
 						color: "text.secondary",
 						bgcolor: `${obj.color}`,
-						minHeight: 150,
+						minHeight: { xs: 300, sm: 200, md: 180, lg: 150, xl: 150 },
 						border: "1px solid rgba(0,0,0,0.1)",
 						borderRadius: "5px",
 						padding: "1rem",
 						margin: "1rem 0",
-						overflow: "hidden",
+						overflow: { xs: "auto", sm: "auto", md: "hidden", lg: "hidden", xl: "hidden" },
 					}}
 				>
 					<Box
+						className="basics-wrapper"
 						sx={{
 							display: "flex",
 							flexDirection: "column",
-
-							width: "20%",
+							width: { xs: "90%", sm: "40%", md: "30%", lg: "20%", xl: "20%" },
 							marginRight: 5,
-							overflow: "auto",
 						}}
 					>
 						<div>
@@ -74,27 +75,28 @@ function InfoBox(props) {
 						))}
 					</Box>
 					<Box
-						className="info_social_wrapper"
+						className="info-social-wrapper"
 						sx={{
 							display: "flex",
 							flexDirection: "column",
 							justifyContent: "space-between",
-							flexWrap: "wrap",
-							width: "40%",
+							flexWrap: { xs: "", sm: "", md: "", lg: "wrap", xl: "wrap" },
+							width: { xs: "90%", sm: "40%", md: "40%", lg: "40%", xl: "40%" },
 						}}
 					>
 						<Box
 							sx={{
 								overflow: "auto",
+								marginTop: { xs: "1rem", sm: "1rem", md: "", lg: "", xl: "" },
 							}}
 						>
 							{obj.info ? <b>Information: </b> : ""}
 							{obj.info}
 						</Box>
 						<Box
+							className="some-buttons"
 							sx={{
 								display: "flex",
-								flexDirection: "row",
 								justifyContent: "start",
 							}}
 						>
@@ -153,7 +155,9 @@ function InfoBox(props) {
 							sx={{
 								display: "flex",
 								justifyContent: "end",
-								width: "25%",
+								width: { xs: 0, sm: "0", md: "40%", lg: "25%", xl: "25%" },
+								height: { xs: 0, sm: "0", md: "100%", lg: "100%", xl: "100%" },
+								visibility: { xs: "hidden", sm: "hidden", md: "visible", lg: "visible", xl: "visible" },
 							}}
 						>
 							<img
