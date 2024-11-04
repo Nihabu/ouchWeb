@@ -31,7 +31,7 @@ const teamList = [
 		website: "https://ultimate.osi.no/next/p/27975/news",
 		facebook: "https://www.facebook.com/groups/125485077480296",
 		time: "Monday 14:30 - 16:00, Wednesday 17:00 - 18:30",
-		info: "Monday practice at Domus Athletica, Thursdays at Athletica Blindern. If you are currently studying in Oslo, check out this great student team! ",
+		info: "Monday practice at Domus Athletica, Wednesdays at Athletica Blindern. If you are currently studying in Oslo, check out this great student team!",
 		picture: true,
 		color: "rgba(246, 164, 169, 0.1)",
 	},
