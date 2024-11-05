@@ -150,16 +150,16 @@ function InfoBox(props) {
 							</a>
 						</Box>
 					</Box>
-					{obj.picture ? (
-						<Box
-							sx={{
-								display: "flex",
-								justifyContent: "end",
-								width: { xs: 0, sm: "0", md: "40%", lg: "25%", xl: "25%" },
-								height: { xs: 0, sm: "0", md: "100%", lg: "100%", xl: "100%" },
-								visibility: { xs: "hidden", sm: "hidden", md: "visible", lg: "visible", xl: "visible" },
-							}}
-						>
+					<Box
+						sx={{
+							display: "flex",
+							justifyContent: "end",
+							width: { xs: 0, sm: "0", md: "40%", lg: "25%", xl: "25%" },
+							height: { xs: 0, sm: "0", md: "100%", lg: "100%", xl: "100%" },
+							visibility: { xs: "hidden", sm: "hidden", md: "visible", lg: "visible", xl: "visible" },
+						}}
+					>
+						{obj.picture ? (
 							<img
 								src={images[obj.team]}
 								alt={`${obj.team}`}
@@ -167,10 +167,10 @@ function InfoBox(props) {
 									opacity: 0.6,
 								}}
 							></img>
-						</Box>
-					) : (
-						" "
-					)}
+						) : (
+							" "
+						)}
+					</Box>
 				</Box>
 			))}
 		</ThemeProvider>

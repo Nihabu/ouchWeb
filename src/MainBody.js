@@ -10,8 +10,9 @@ function MainBody(props) {
 				<Box className="main" sx={{ height: 1, display: "flex", flexDirection: "column", mx: 5 }}>
 					<Box sx={{ color: "text.primary" }}>
 						<h1>Welcome to the Oslo Ultimate Community Hub</h1>
-						<p>Overview over practice times in the Oslo area</p>
+						<p>The place where you find information regarding Ultimate Frisbee in Oslo, Norway.</p>
 					</Box>
+					<h3>Overview over practice times in the Oslo area</h3>
 					<InfoBox />
 				</Box>
 			</Box>
