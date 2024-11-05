@@ -32,7 +32,7 @@ function InfoBox(props) {
 						position: "relative",
 						color: "text.secondary",
 						bgcolor: `${obj.color}`,
-						minHeight: { xs: 300, sm: 200, md: 180, lg: 150, xl: 150 },
+						height: { xs: 300, sm: 200, md: 180, lg: 150, xl: 150 },
 						border: "1px solid rgba(0,0,0,0.1)",
 						borderRadius: "5px",
 						padding: "1rem",
@@ -80,8 +80,7 @@ function InfoBox(props) {
 							display: "flex",
 							flexDirection: "column",
 							justifyContent: "space-between",
-							flexWrap: { xs: "", sm: "", md: "", lg: "wrap", xl: "wrap" },
-							width: { xs: "90%", sm: "40%", md: "40%", lg: "40%", xl: "40%" },
+							width: { xs: "90%", sm: "45%", md: "45%", lg: "40%", xl: "40%" },
 						}}
 					>
 						<Box
@@ -155,8 +154,8 @@ function InfoBox(props) {
 							sx={{
 								display: "flex",
 								justifyContent: "end",
-								width: { xs: 0, sm: "0", md: "40%", lg: "25%", xl: "25%" },
-								height: { xs: 0, sm: "0", md: "100%", lg: "100%", xl: "100%" },
+								width: { xs: 0, sm: 0, md: "20%", lg: "25%", xl: "25%" },
+								height: { xs: 0, sm: 0, md: "50%", lg: "100%", xl: "100%" },
 								visibility: { xs: "hidden", sm: "hidden", md: "visible", lg: "visible", xl: "visible" },
 							}}
 						>
