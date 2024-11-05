@@ -18,7 +18,6 @@ function Resources(props) {
 							src="https://ultical.com/embed/map/events/?sidebar=1"
 							width="1240"
 							height="640"
-							allowfullscreen=""
 							loading="lazy"
 						></iframe>
 					</Box>
@@ -29,10 +28,9 @@ function Resources(props) {
 							height="400"
 							src="https://www.youtube.com/embed/PrinnxHyWlo?si=_KnIVg0hNRnytCd0"
 							title="YouTube video player"
-							frameborder="0"
+							frameBorder="1"
 							allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-							referrerpolicy="strict-origin-when-cross-origin"
-							allowfullscreen
+							referrerPolicy="strict-origin-when-cross-origin"
 						></iframe>
 					</Box>
 				</Box>
