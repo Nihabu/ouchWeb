@@ -25,7 +25,7 @@ function Header(props) {
 						display: "flex",
 						justifyContent: "space-evenly",
 						alignItems: "center",
-						width: 1,
+						width: "100%",
 					}}
 				>
 					<NavLink
