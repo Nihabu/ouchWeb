@@ -11,7 +11,19 @@ function Resources(props) {
 					<Box sx={{ color: "text.primary" }}>
 						<h1>Resources</h1>
 					</Box>
-					<Box>
+					<Box className="ultical">
+						<h3>Tournaments around the world</h3>
+						<iframe
+							title="ultical"
+							src="https://ultical.com/embed/map/events/?sidebar=1"
+							width="1240"
+							height="640"
+							allowfullscreen=""
+							loading="lazy"
+						></iframe>
+					</Box>
+					<Box className="youtube-whatisultimate">
+						<h3>Instructional videos</h3>
 						<iframe
 							width="600"
 							height="400"
