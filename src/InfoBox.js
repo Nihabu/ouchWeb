@@ -154,8 +154,8 @@ function InfoBox(props) {
 							sx={{
 								display: "flex",
 								justifyContent: "end",
-								width: { xs: 0, sm: 0, md: "20%", lg: "25%", xl: "25%" },
-								height: { xs: 0, sm: 0, md: "50%", lg: "100%", xl: "100%" },
+								width: { xs: 0, sm: 0, md: "20%", lg: "20%", xl: "20%" },
+								height: { xs: 0, sm: 0, md: "50%", lg: "75%", xl: "100%" },
 								visibility: { xs: "hidden", sm: "hidden", md: "visible", lg: "visible", xl: "visible" },
 							}}
 						>
@@ -166,10 +166,18 @@ function InfoBox(props) {
 									opacity: 0.6,
 								}}
 							></img>
-						) : (
-							" "
-						)}
-					</Box>
+						</Box>
+					) : (
+						<Box
+							sx={{
+								display: "flex",
+								justifyContent: "end",
+								width: { xs: 0, sm: 0, md: "20%", lg: "25%", xl: "25%" },
+								height: { xs: 0, sm: 0, md: "50%", lg: "100%", xl: "100%" },
+								visibility: { xs: "hidden", sm: "hidden", md: "visible", lg: "visible", xl: "visible" },
+							}}
+						></Box>
+					)}
 				</Box>
 			))}
 		</ThemeProvider>
