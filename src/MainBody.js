@@ -8,6 +8,7 @@ import teamList from "./teamOverview";
 function MainBody(props) {
 	return (
 		<ThemeProvider theme={theme}>
+<<<<<<< HEAD
 			<Box sx={{ color: "text.primary", mx: 5 }}>
 				<h1>Welcome to the Oslo Ultimate Community Hub</h1>
 				<p>The place where you find information regarding Ultimate Frisbee in Oslo, Norway.</p>
@@ -30,6 +31,15 @@ function MainBody(props) {
 					}}
 				>
 					<h2>Overview over practice times in the Oslo area</h2>
+=======
+			<Box sx={{ bgcolor: "background.white", height: `calc(100vh - ${headerHeight})` }}>
+				<Box className="main" sx={{ height: 1, display: "flex", flexDirection: "column", mx: 5 }}>
+					<Box sx={{ color: "text.primary" }}>
+						<h1>Welcome to the Oslo Ultimate Community Hub</h1>
+						<p>The place where you find information regarding Ultimate Frisbee in Oslo, Norway.</p>
+					</Box>
+					<h3>Overview over practice times in the Oslo area</h3>
+>>>>>>> fded3be9cf4c850007aba6332088742bc698dd4c
 					<InfoBox />
 				</Box>
 				<UpcomingEvents />

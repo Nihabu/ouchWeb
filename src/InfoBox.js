@@ -166,10 +166,10 @@ function InfoBox(props) {
 									opacity: 0.6,
 								}}
 							></img>
-						</Box>
-					) : (
-						" "
-					)}
+						) : (
+							" "
+						)}
+					</Box>
 				</Box>
 			))}
 		</ThemeProvider>

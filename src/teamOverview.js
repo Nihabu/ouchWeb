@@ -59,6 +59,18 @@ const teamList = [
 		picture: true,
 		color: "background.blue",
 	},
+	{
+		team: "The Oslo Community",
+		location: ["Jordal"],
+		locationLink: ["https://maps.app.goo.gl/YoekkkRC8DLBtWHBA"],
+		instagram: "",
+		website: "",
+		facebook: "",
+		time: "Friday 18:30 - 20:30",
+		info: "The Friday Winter Pickup is open for anyone wanting to watch, try and/or play Ultimate. Please bring one light and one dark jersey, and remember water, warm clothes and cleats if you have them.",
+		picture: false,
+		color: "rgba(236, 162, 242, 0.1)",
+	},
 	// {
 	// 	team: "Wizards of Ås",
 	// 	location: "EIKA SPORTSSENTER, Ås",
