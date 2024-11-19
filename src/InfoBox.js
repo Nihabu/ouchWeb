@@ -32,7 +32,7 @@ function InfoBox(props) {
 						position: "relative",
 						color: "text.secondary",
 						bgcolor: `${obj.color}`,
-						height: { xs: 300, sm: 200, md: 180, lg: 150, xl: 150 },
+						height: { xs: 300, sm: 200, md: 180, lg: 180, xl: 180 },
 						border: "1px solid rgba(0,0,0,0.1)",
 						borderRadius: "5px",
 						padding: "1rem",

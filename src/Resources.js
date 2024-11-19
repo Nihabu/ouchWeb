@@ -11,10 +11,30 @@ function Resources(props) {
 					<Box sx={{ color: "text.primary" }}>
 						<h1>Resources</h1>
 					</Box>
+					<Box className="googlegroup">
+						<h3>The OUCH Google Group</h3>
+						<p>
+							Not everyone is on social media, and information often gets lost when posted on several
+							different platforms. This is why we've created an email-newsletter. All important
+							information about Ultimate in Oslo will be shared in the newsletter.
+						</p>
+						<p>
+							Join{" "}
+							<a
+								target="_blank"
+								rel="noopener noreferrer"
+								href="https://groups.google.com/g/oslo-ultimate"
+							>
+								HERE
+							</a>{" "}
+							for official updates per email.
+						</p>
+					</Box>
+
 					<Box
 						className="ultical"
 						sx={{
-							width: "100%",
+							width: "80%",
 							height: "100%",
 							marginBottom: "5rem",
 						}}
@@ -22,7 +42,7 @@ function Resources(props) {
 						<h3>Tournaments around the world</h3>
 						<iframe
 							title="ultical"
-							src="https://ultical.com/embed/map/events/?sidebar=1"
+							src="https://ultical.com/embed/map/events/?sidebar=0"
 							width="100%"
 							height="100%"
 							frameBorder="0"

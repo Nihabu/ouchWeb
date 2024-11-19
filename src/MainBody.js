@@ -26,7 +26,7 @@ function MainBody(props) {
 						height: 1,
 						display: "flex",
 						flexDirection: "column",
-						maxWidth: { xs: "100vw", sm: "100vw", md: "100vw", lg: "70vw", xl: "70vw" },
+						maxWidth: { xs: "100vw", sm: "100vw", md: "100vw", lg: "75vw", xl: "75vw" },
 					}}
 				>
 					<h2>Overview over practice times in the Oslo area</h2>
