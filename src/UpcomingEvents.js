@@ -17,6 +17,7 @@ function UpcomingEvents(props) {
 						border: "1px solid rgba(0,0,0,0.1)",
 						borderRadius: "5px",
 						background: "rgba(0,0,0,0.05)",
+						maxWidth: "50vw",
 					}}
 				>
 					{eventsList.map((obj, i) => (

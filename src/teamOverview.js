@@ -7,7 +7,7 @@ const teamList = [
 		website: "https://ekebergsk.com/ultimate/treningstider/",
 		facebook: "https://www.facebook.com/groups/692866460789756",
 		time: "Monday 19:30 - 21:30, Wednesday 20:30 - 22:15",
-		info: "Wednesday practice time is subject to change by the end of November.",
+		info: null,
 		picture: true,
 		color: "rgba(0, 243, 16, 0.1)",
 	},
