@@ -30,7 +30,16 @@ function Resources(props) {
 							for official updates per email.
 						</p>
 					</Box>
-
+					<Box className="urules">
+						<h3>The Rules of Ultimate</h3>
+						<p>
+							For the rules of Ultimate, we recommend using{" "}
+							<a target="_blank" rel="noopener noreferrer" href="https://urules.org/">
+								THIS
+							</a>{" "}
+							great webpage, courtesy of the legend Steinar.
+						</p>
+					</Box>
 					<Box
 						className="ultical"
 						sx={{
