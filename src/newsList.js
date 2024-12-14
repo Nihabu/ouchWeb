@@ -7,14 +7,7 @@ const newsList = [
 			"As is tradition, the group stage was played to its fulfilment on Saturday, with the top 8 teams going through to quarters on Sunday, and the bottom 6 battling it out for the lower placements. " +
 			"In the end, Pancake took the crown, winning a hard-fought final against the winners from US1 BrainyDisc: Framnes IL. " +
 			"As faith would have it, the bronze final was played between two teams who know each other very well, namely the two Brickers teams: Brick and Morty. " +
-			"The Spirit of the Game award for the weekend was, once again, won by BSI! " +
-			(
-				<ul>
-					<li>
-						<p>Testing</p>
-					</li>
-				</ul>
-			),
+			"The Spirit of the Game award for the weekend was, once again, won by BSI! ",
 		posted: "22.11.2024",
 	},
 	{

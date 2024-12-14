@@ -1,12 +1,5 @@
 const eventsList = [
 	{
-		date: "09.12.2024 19:30-21:30",
-		location: "Haugenstua Idrettshall",
-		locationLink: "https://maps.app.goo.gl/BB7yVHCfRdtH3f266",
-		title: "Open Practice",
-		info: "The community invites everyone and anyone to an open practice for beginners and experienced players alike. Show up to Ekebergs Monday practice on December 9th to touch some plastic, try the amazing sport of Ultimate and get introduced to the community!",
-	},
-	{
 		date: "03.01.2025 - 04.01.2025",
 		location: "Oslo, Tøyen Sportsklubb",
 		locationLink: "https://maps.app.goo.gl/PRDm2SzBRuSDiGHA8",
