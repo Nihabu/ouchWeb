@@ -59,6 +59,17 @@ function UpcomingEvents(props) {
 								<div className="event-info" style={{ marginTop: "1rem" }}>
 									{obj.info}
 								</div>
+								<div className="extra" style={{ marginTop: "1rem" }}>
+									<a
+										target="_blank"
+										rel="noopener noreferrer"
+										href={obj.extraLink}
+										style={{ color: "inherit" }}
+										key={i}
+									>
+										{obj.extra}
+									</a>
+								</div>
 							</Box>
 						</Box>
 					))}

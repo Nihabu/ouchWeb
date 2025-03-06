@@ -15,7 +15,7 @@ function InfoBox(props) {
 						position: "relative",
 						color: "text.secondary",
 						bgcolor: `${obj.color}`,
-						minHeight: 150,
+						minHeight: 200,
 						border: "1px solid rgba(0,0,0,0.1)",
 						borderRadius: "5px",
 						padding: "1rem",
