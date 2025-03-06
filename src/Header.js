@@ -14,10 +14,18 @@ function Header(props) {
 					color: "logoColors.blue",
 					height: props.headerHeight,
 					display: "flex",
+					justifyContent: "left",
 				}}
 			>
-				<NavLink to="/ouchWeb">
-					<img className="logo" src={logo} alt="OUCH Logo" style={{ height: "100%" }} />
+				<NavLink to="/ouchWeb" style={{ width: 0 }}>
+					<img
+						className="logo"
+						src={logo}
+						alt="OUCH Logo"
+						style={{
+							height: "100%",
+						}}
+					/>
 				</NavLink>
 				<Box
 					className="Button-container"
