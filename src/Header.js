@@ -14,10 +14,9 @@ function Header(props) {
 					color: "logoColors.blue",
 					height: props.headerHeight,
 					display: "flex",
-					justifyContent: "left",
 				}}
 			>
-				<NavLink to="/ouchWeb" style={{ width: 0 }}>
+				<NavLink to="/ouchWeb" style={{ display: "contents" }}>
 					<img
 						className="logo"
 						src={logo}
