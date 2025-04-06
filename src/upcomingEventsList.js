@@ -1,20 +1,30 @@
 const eventsList = [
 	{
-		date: "29.03.2025 - 30.03.2025",
-		location: "Trondheim Spektrum, Trondheim",
-		locationLink: "https://maps.app.goo.gl/pdhnecwPMRSpaZUs9",
-		title: "Norwegian National Championship (NM)",
-		info: "The final tournament of the 2024/2025 season.",
-		extra: null
+		date: "from early April",
+		location: "Oslo, Ekebergsletta",
+		locationLink: "https://maps.app.goo.gl/n78aXmPuQq1d2GfP8",
+		title: "Ultimate Spring League Oslo (USLO)",
+		info: "A fun, free for all HAT tournament. Games usually every second Sunday.",
+		extraLink: null,
+		extra: "Sign up ended. Just show up for pick-up!"
 	},
 	{
-		date: "from early April",
-		location: "Oslo, TBD",
+		date: "June 14th-15th",
+		location: "Stavanger",
 		locationLink: null,
-		title: "Ultimate Spring League Oslo (USLO)",
-		info: "A fun, free for all HAT tournament. Sign up and info through the link below.",
-		extraLink: "https://forms.gle/eVG6qAKwzPFJYUHf6",
-		extra: "Sign up before March 16th!"
+		title: "Outdoor Nationals (NM-veka)",
+		info: "The Outdoor Nationals. 5v5 on turf",
+		extraLink: "https://www.facebook.com/events/607614818714312?active_tab=about",
+		extra: "Click here for more info"
+	},
+	{
+		date: "June 21st-22nd",
+		location: "Oslo, Furuset",
+		locationLink: "https://maps.app.goo.gl/53sodb717hDzEoRW7",
+		title: "2 Fast 2 Furuset",
+		info: "The second rendition of The Fast and the Furuset. 5v5, loose mixed on grass. Party, camping, sun and fun. Pick-ups welcome!",
+		extraLink: "https://www.facebook.com/events/1304590867503272/",
+		extra: "Click here for more info and sign-up"
 	},
 ];
 
