@@ -16,7 +16,7 @@ function Header(props) {
 					display: "flex",
 				}}
 			>
-				<NavLink to="/ouchWeb" style={{ display: "contents" }}>
+				<NavLink to="/" style={{ display: "contents" }}>
 					<img
 						className="logo"
 						src={logo}
@@ -36,7 +36,7 @@ function Header(props) {
 					}}
 				>
 					<NavLink
-						to="/ouchWeb"
+						to="/"
 						style={({ isActive }) => {
 							return {
 								color: isActive ? "#E47313" : "#03B7D0",
