@@ -1,6 +1,6 @@
 const newsList = [
 	{
-		header: "The Norwegian National Championshop 2025",
+		header: "The Norwegian National Championship 2025",
 		text:
 			"An incredible weekend of exciting Ultimate has come to an end, and we have crowned this year’s Norwegian champions. " +
 			"With 13 teams finding their way to Trondheim for the weekend, the scene was set for a proper showdown, and a show we did get. " +

@@ -4,18 +4,9 @@ const eventsList = [
 		location: "Oslo, Ekebergsletta",
 		locationLink: "https://maps.app.goo.gl/n78aXmPuQq1d2GfP8",
 		title: "Ultimate Spring League Oslo (USLO)",
-		info: "A fun, free for all HAT tournament. Games usually every second Sunday.",
+		info: "A fun, free for all HAT tournament. Games usually every second Sunday. Last game Sunday May 18th!",
 		extraLink: null,
 		extra: "Sign up ended. Just show up for pick-up!"
-	},
-	{
-		date: "June 14th-15th",
-		location: "Stavanger",
-		locationLink: null,
-		title: "Outdoor Nationals (NM-veka)",
-		info: "The Outdoor Nationals. 5v5 on turf",
-		extraLink: "https://www.facebook.com/events/607614818714312?active_tab=about",
-		extra: "Click here for more info"
 	},
 	{
 		date: "June 21st-22nd",
