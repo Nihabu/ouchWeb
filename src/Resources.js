@@ -33,11 +33,25 @@ function Resources(props) {
 					<Box className="urules">
 						<h3>The Rules of Ultimate</h3>
 						<p>
+							There are severeal resources for learning the rules of Ultimate. The most official one is rules.wfdf.org.
+							<br></br> For a more user-friendly version with a search function, see www.urules.org.
+
+						</p>
+						{/* <p>
 							For the rules of Ultimate, we recommend using{" "}
 							<a target="_blank" rel="noopener noreferrer" href="https://urules.org/">
 								THIS
 							</a>{" "}
 							great webpage, courtesy of the legend Steinar.
+						</p> */}
+					</Box>
+					<Box>
+						<h3>The Norwegian-American Sports Association (NAIF)</h3>
+						<p>NAIF is the top level for all things disc sport in Norway, incl. Discgolf and Ultimate.<br></br>
+							For official news see the{" "}
+							<a target="_blank" rel="noopener noreferrer" href="https://amerikanskeidretter.no/disksport/">
+								NAIF website
+							</a>{" "}.
 						</p>
 					</Box>
 					<Box
