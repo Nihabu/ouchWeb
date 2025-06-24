@@ -1,5 +1,17 @@
 const newsList = [
 	{
+		header: "2 Fast 2 Furious",
+		text:
+			"On the weekend of 20th-22nd of June 2025, the second rendition of Furuset Brickers outdoor tournament 2 Fast 2 Furuset took place. " +
+			"In the warm weather, 8 teams from all over Norway, including one pick-up team, battled it out on the grass fields. " +
+			"Not even the spontaneous and very local rain could stop the players giving their all on the field, " +
+			" and we got some great matches throughout the weekend. " +
+			"We want to congratulate Brickers with the win, Pancake with 2nd place, Pick-up with 3rd place, and " +
+			"Bærum Ultimate for winning the slightly modified Spirit of the Game award. " +
+			"An extra special thanks to Furuset Brickers for organizing a successful tournament.",
+		posted: "24.06.2025"
+	},
+	{
 		header: "The Norwegian National Championship 2025",
 		text:
 			"An incredible weekend of exciting Ultimate has come to an end, and we have crowned this year’s Norwegian champions. " +

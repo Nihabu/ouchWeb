@@ -1,12 +1,21 @@
 const eventsList = [
 	{
-		date: "June 21st-22nd",
-		location: "Oslo, Furuset",
-		locationLink: "https://maps.app.goo.gl/53sodb717hDzEoRW7",
-		title: "2 Fast 2 Furuset",
-		info: "The second rendition of The Fast and the Furuset. 5v5, loose mixed on grass. Party, camping, sun and fun. Pick-ups welcome!",
-		extraLink: "https://www.facebook.com/events/1304590867503272/",
-		extra: "Click here for more info and sign-up"
+		date: "late June - early August",
+		location: "Norway",
+		locationLink: null,
+		title: "Summer Offseason",
+		info: "As we are entering summer holidays, make sure to put yourself on attending on all practices and events you plan to attend. Some events might get cancelled as people enjoy their vacations",
+		extraLink: null,
+		extra: null
+	},
+	{
+		date: "6.-7. September 2025",
+		location: "Oslo, Ekebergsletta",
+		locationLink: "https://maps.app.goo.gl/JP1LNztk3qmtMkK67",
+		title: "Oslo Kapp 2025",
+		info: "The 4th Annual Oslo Kapp is happening!",
+		extraLink: null,
+		extra: null
 	},
 ];
 
