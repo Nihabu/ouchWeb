@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.e6c13ad2.css",
-    "main.js": "/static/js/main.a9850a0e.js",
+    "main.js": "/static/js/main.3892d784.js",
     "static/media/Pancake_Team_Picture.jpg": "/static/media/Pancake_Team_Picture.001f15338c6bfc62a0d9.jpg",
     "static/media/OUCH_Logo.jpg": "/static/media/OUCH_Logo.d605095ba931f0907729.jpg",
     "static/media/Baerum_Team_Picture.jpg": "/static/media/Baerum_Team_Picture.8a1ed86ad0a7a2e1a61f.jpg",
@@ -20,10 +20,10 @@
     "static/media/ClubRep_Brickers.jpeg": "/static/media/ClubRep_Brickers.549d783b3214266e7f5c.jpeg",
     "index.html": "/index.html",
     "main.e6c13ad2.css.map": "/static/css/main.e6c13ad2.css.map",
-    "main.a9850a0e.js.map": "/static/js/main.a9850a0e.js.map"
+    "main.3892d784.js.map": "/static/js/main.3892d784.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.a9850a0e.js"
+    "static/js/main.3892d784.js"
   ]
 }
