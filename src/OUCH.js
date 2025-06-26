@@ -48,36 +48,36 @@ function OUCH(props) {
 								<p>President: Daniel</p>
 							</Box>
 							<Box sx={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
-								<img
+								{/* <img
 									style={{ width: "200px", height: "200px", borderRadius: "50%" }}
 									src={Secretary}
 									alt="secretary"
-								></img>
-								<p>Secretary: Kate</p>
+								></img> */}
+								<p>Secretary: Aurora</p>
 							</Box>
 							<Box sx={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
-								<img
+								{/* <img
 									style={{ width: "200px", height: "200px", borderRadius: "50%" }}
 									src={SoMe}
 									alt="some"
-								></img>
-								<p>Social Media: Ricarda</p>
+								></img> */}
+								<p>Social Media: Kayla</p>
 							</Box>
 							<Box sx={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
-								<img
+								{/* <img
 									style={{ width: "200px", height: "200px", borderRadius: "50%" }}
 									src={SoMe2}
 									alt="some2"
-								></img>
-								<p>Social Media: Justyna</p>
+								></img> */}
+								<p>Social Media: Nicole</p>
 							</Box>
 							<Box sx={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
-								<img
+								{/* <img
 									style={{ width: "200px", height: "200px", borderRadius: "50%" }}
 									src={Outdoor}
 									alt="outdoor"
-								></img>
-								<p>Outdoor Coordinator: Daniel</p>
+								></img> */}
+								<p>Outdoor Coordinator: Gayan</p>
 							</Box>
 							<Box sx={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
 								<img
@@ -89,7 +89,8 @@ function OUCH(props) {
 							</Box>
 						</Box>
 						<h3>The Club Representatives</h3>
-						<Box
+						<p>To be determined</p>
+						{/* <Box
 							sx={{
 								display: "flex",
 								justifyContent: "space-evenly",
@@ -129,7 +130,15 @@ function OUCH(props) {
 								></img>
 								<p>Brickers: Alexander</p>
 							</Box>
-						</Box>
+						</Box> */}
+					</Box>
+					<Box sx={{ color: "text.secondary", textDecoration: "none" }}>
+						<h2>Meeting notes</h2>
+						<a
+							target="_blank"
+							rel="noopener noreferrer"
+							href="https://docs.google.com/document/d/1gfAkXCky5t4ep3so7AsN4zSj_-uUp5NRZmlIcQfHnlE/edit?usp=sharing">
+							24.06.2025</a>
 					</Box>
 				</Box>
 			</Box>
