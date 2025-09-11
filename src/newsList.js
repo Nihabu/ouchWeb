@@ -1,5 +1,19 @@
 const newsList = [
 	{
+		header: "Oslo Kapp 2025",
+		text:
+			"The weekend of September 6.-7. saw the return of Oslo Kapp above Oslo. A total of eight teams from across the country and beyond " +
+			"competed on the grassy fields of Ekebergsletta. Pool play on a sunny Saturday saw teams battling for favorable matchups in the upcoming " +
+			"quarter finals, with some very close games throughout the day. The knockout stage on Sunday brought even more excitement, " +
+			"with Bærum Ultimate taking down reigning Norwegian Indoor champions Framnes on universe point in the semi finals. " + 
+			"In the other semi final, Brickers played fellow Oslo team Pancake, a matchup that has become a classic in recent years. " +
+			"Pancake emerged victorious, setting up a final against Bærum. Brickers would go on to secure third place over Framnes. " +
+			"In a thrilling final, Bærum Ultimate clinched the title with victory over Pancake. Congratulations to all teams on the podium! " +
+			"A special thanks to the teams making the long trip from Tromsø, Bergen and Sweden."
+			,
+		posted: "10.09.2025"
+	},
+	{
 		header: "2 Fast 2 Furious",
 		text:
 			"On the weekend of 20th-22nd of June 2025, the second rendition of Furuset Brickers outdoor tournament 2 Fast 2 Furuset took place. " +
