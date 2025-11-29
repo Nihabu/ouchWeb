@@ -12,30 +12,6 @@ const teamList = [
 		color: "rgba(236, 162, 242, 0.1)",
 	},
 	{
-		team: "Ekeberg",
-		location: [],//["Haugenstua Idrettshall"],
-		locationLink: [],//["https://maps.app.goo.gl/BB7yVHCfRdtH3f266"],
-		instagram: "https://www.instagram.com/ekebergsendeplateklubb/",
-		website: "https://ekebergsk.com/ultimate/treningstider/",
-		facebook: "https://www.facebook.com/groups/692866460789756",
-		time: "",
-		info: "Ekeberg does not have dedicated practices at the moment. You will find them at the various other practices around town! Please accept this poem instead...:  No field to claim, no set routine — Just borrowed drills on borrowed green. No field to call home, but still we show — Wherever discs fly high, we'll go. ",
-		picture: true,
-		color: "rgba(0, 243, 16, 0.1)",
-	},
-	{
-		team: "Bærum",
-		location: [""], //Kalvøya
-		locationLink: [""], //https://maps.app.goo.gl/2cAWK32D3bQWJhpN9
-		instagram: "https://www.instagram.com/baerumfrisbeeklubbultimate/",
-		website: "https://www.baerumfrisbeeklubb.no/next/p/70298/hjem",
-		facebook: "https://www.facebook.com/profile.php?id=61564492610385",
-		time: "Thursday 18:00 - 20:00",
-		info: "Oslos newest Ultimate team! Open for all to join. Indoor practice pending, but will be posted as soon as possible.",
-		picture: true,
-		color: "rgba(192, 210, 64, 0.1)",
-	},
-	{
 		team: "Pancake",
 		location: ["Fjellhamarhallen"],//["Fjellhamarhallen", "Kjenn-hallen", "Voldsløkka"],
 		locationLink: ["https://maps.app.goo.gl/aeuF5u5oge47hmoA8"],//["https://maps.app.goo.gl/aeuF5u5oge47hmoA8", "https://maps.app.goo.gl/1eWmVSvH8Cw7iXce8", "https://maps.app.goo.gl/x6dvGUbYCjdwHxL99"],
@@ -59,7 +35,7 @@ const teamList = [
 		picture: true,
 		color: "background.blue",
 	},
-		{
+	{
 		team: "OSI",
 		location: ["Athletica Blindern", "Oslo Met"],
 		locationLink: ["https://maps.app.goo.gl/QbFowT8vBTgc5BFc8", "https://maps.app.goo.gl/8T5YiB3qRFgnoHHE8"],
@@ -71,7 +47,32 @@ const teamList = [
 		picture: true,
 		color: "rgba(246, 164, 169, 0.1)",
 	},
-	
+	{
+		team: "Ekeberg",
+		location: [],//["Haugenstua Idrettshall"],
+		locationLink: [],//["https://maps.app.goo.gl/BB7yVHCfRdtH3f266"],
+		instagram: "https://www.instagram.com/ekebergsendeplateklubb/",
+		website: "https://ekebergsk.com/ultimate/treningstider/",
+		facebook: "https://www.facebook.com/groups/692866460789756",
+		time: "",
+		info: "Ekeberg does not have dedicated practices at the moment. You will find them at the various other practices around town! Please accept this poem instead...:  No field to claim, no set routine — Just borrowed drills on borrowed green. No field to call home, but still we show — Wherever discs fly high, we'll go. ",
+		picture: true,
+		color: "rgba(0, 243, 16, 0.1)",
+	},
+	{
+		team: "Bærum",
+		location: [""], //Kalvøya
+		locationLink: [""], //https://maps.app.goo.gl/2cAWK32D3bQWJhpN9
+		instagram: "https://www.instagram.com/baerumfrisbeeklubbultimate/",
+		website: "https://www.baerumfrisbeeklubb.no/next/p/70298/hjem",
+		facebook: "https://www.facebook.com/profile.php?id=61564492610385",
+		time: "Thursday 18:00 - 20:00",
+		info: "Oslos newest Ultimate team! Open for all to join. Indoor practice pending, but will be posted as soon as possible.",
+		picture: true,
+		color: "rgba(192, 210, 64, 0.1)",
+	},
+	,
+
 	// {
 	// 	team: "Wizards of Ås",
 	// 	location: "EIKA SPORTSSENTER, Ås",
