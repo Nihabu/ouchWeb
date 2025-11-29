@@ -6,7 +6,7 @@ const eventsList = [
 		title: "Decembercup '25",
 		info: "The second tournament of the Norwegian Indoor Series 25/26. Format is Open / Women.",
 		extraLink: null,
-		extra: "Due to limited amount of FMPs, the womens division is TBD."
+		extra: "Due to the limited amount of FMPs, the Women's division is played as a 3v3 tournament."
 	},
 	{
 		date: "28. February - 1. March 2026",
