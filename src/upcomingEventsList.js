@@ -1,14 +1,5 @@
 const eventsList = [
 	{
-		date: "18.-19. October 2025",
-		location: "Bergen",
-		locationLink: null,
-		title: "BrainyDisk '25",
-		info: "The first tournament of the Norwegian Indoor Series 25/26. Format is full mixed.",
-		extraLink: null,
-		extra: null
-	},
-	{
 		date: "13.-14. December 2025",
 		location: "Fjellhamarhallen, Fjellhamar",
 		locationLink: "https://maps.app.goo.gl/1S5bzPPacjNmx8xm9",

@@ -1,5 +1,16 @@
 const newsList = [
 	{
+		header: "BrainyDisc 2025",
+		text:
+			"As the first tournament in the 25/26 series, Norway’s very first full mixed tournament took place this weekend in Bergen — and it was a huge success!" + 
+			"Ten teams from all across the country came together for a weekend packed with Ultimate action and great vibes. " +
+			"Framnes  kicked off the series in style, taking the win over Oslo's Furuset Brickers in the final." +
+			"Stormkast claimed third place, and BSI 2 took home the Spirit Award! Big congratulations to all the medal winners. " +
+			"Massive thanks to Stormkast for hosting such an awesome event."
+			,
+		posted: "22.10.2025"
+	},
+	{
 		header: "Oslo Kapp 2025",
 		text:
 			"The weekend of September 6.-7. saw the return of Oslo Kapp above Oslo. A total of eight teams from across the country and beyond " +
