@@ -1,5 +1,14 @@
 const eventsList = [
 	{
+		date: "9. December 2025",
+		location: "Furuset Forum, Handball hall",
+		locationLink: "https://maps.app.goo.gl/P5t68ctN8UoC2TCy8",
+		title: "Open Practice",
+		info: "A practice open to anyone interested in trying out ultimate! Focused on introducing Ultimate to beginners.",
+		extraLink: "https://forms.gle/hfZQDCTnHmRw2eKY9",
+		extra: "Please respond to the Google Form to register so the organizers know how many people to expect!"
+	},
+	{
 		date: "13.-14. December 2025",
 		location: "Fjellhamarhallen, Fjellhamar",
 		locationLink: "https://maps.app.goo.gl/1S5bzPPacjNmx8xm9",
