@@ -36,6 +36,18 @@ const teamList = [
 		color: "background.blue",
 	},
 	{
+		team: "Bærum",
+		location: ["Oksenøya Skole"], //Kalvøya
+		locationLink: ["https://maps.app.goo.gl/nMDnM3cR2J4to1yb8?g_st=ipc"], //https://maps.app.goo.gl/2cAWK32D3bQWJhpN9
+		instagram: "https://www.instagram.com/baerumfrisbeeklubbultimate/",
+		website: "https://www.baerumfrisbeeklubb.no/next/p/70298/hjem",
+		facebook: "https://www.facebook.com/profile.php?id=61564492610385",
+		time: "Monday 20:30-22:30 ",
+		info: "Oslos newest Ultimate team! Open for all to join. Indoor practice pending, but will be posted as soon as possible.",
+		picture: true,
+		color: "rgba(192, 210, 64, 0.1)",
+	},
+	{
 		team: "OSI",
 		location: ["Athletica Blindern", "Oslo Met"],
 		locationLink: ["https://maps.app.goo.gl/QbFowT8vBTgc5BFc8", "https://maps.app.goo.gl/8T5YiB3qRFgnoHHE8"],
@@ -59,18 +71,7 @@ const teamList = [
 		picture: true,
 		color: "rgba(0, 243, 16, 0.1)",
 	},
-	{
-		team: "Bærum",
-		location: [""], //Kalvøya
-		locationLink: [""], //https://maps.app.goo.gl/2cAWK32D3bQWJhpN9
-		instagram: "https://www.instagram.com/baerumfrisbeeklubbultimate/",
-		website: "https://www.baerumfrisbeeklubb.no/next/p/70298/hjem",
-		facebook: "https://www.facebook.com/profile.php?id=61564492610385",
-		time: "Thursday 18:00 - 20:00",
-		info: "Oslos newest Ultimate team! Open for all to join. Indoor practice pending, but will be posted as soon as possible.",
-		picture: true,
-		color: "rgba(192, 210, 64, 0.1)",
-	},
+
 	,
 
 	// {

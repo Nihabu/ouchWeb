@@ -1,23 +1,5 @@
 const eventsList = [
 	{
-		date: "9. December 2025",
-		location: "Furuset Forum, Handball hall",
-		locationLink: "https://maps.app.goo.gl/P5t68ctN8UoC2TCy8",
-		title: "Open Practice",
-		info: "A practice open to anyone interested in trying out ultimate! Focused on introducing Ultimate to beginners.",
-		extraLink: "https://forms.gle/hfZQDCTnHmRw2eKY9",
-		extra: "Please respond to the Google Form to register so the organizers know how many people to expect!"
-	},
-	{
-		date: "13.-14. December 2025",
-		location: "Fjellhamarhallen, Fjellhamar",
-		locationLink: "https://maps.app.goo.gl/1S5bzPPacjNmx8xm9",
-		title: "Decembercup '25",
-		info: "The second tournament of the Norwegian Indoor Series 25/26. Format is Open / Women.",
-		extraLink: null,
-		extra: "Due to the limited amount of FMPs, the Women's division is played as a 3v3 tournament."
-	},
-	{
 		date: "28. February - 1. March 2026",
 		location: "Tromsø",
 		locationLink: null,
@@ -27,7 +9,7 @@ const eventsList = [
 		extra: null
 	},
 	{
-		date: "28. February - 1. March 2026",
+		date: "28. - 29. March 2026",
 		location: "Sotra, Bergen",
 		locationLink: null,
 		title: "NIM 2026",
