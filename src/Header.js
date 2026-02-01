@@ -3,6 +3,8 @@ import { Box, ThemeProvider } from "@mui/system";
 import { NavLink } from "react-router-dom";
 import theme from "./theme";
 import logo from "./images/OUCH_Logo.jpg";
+import LoginPopper from "./LoginPopper";
+import Signup from "./Signup";
 
 function Header(props) {
 	return (
@@ -76,6 +78,8 @@ function Header(props) {
 					>
 						OUCH
 					</NavLink>
+					<LoginPopper />
+					<Signup />
 				</Box>
 			</Box>
 		</ThemeProvider>
