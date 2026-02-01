@@ -1,13 +1,13 @@
 const teamList = [
 	{
 		team: "The Oslo Community",
-		location: ["Frognerparken"],
-		locationLink: ["https://maps.app.goo.gl/Dx6VjPsqwZSuLstd9"],//["https://maps.app.goo.gl/YoekkkRC8DLBtWHBA"],
+		location: ["Haugenstua Idrettshall"],
+		locationLink: ["https://maps.app.goo.gl/eXTSUMoHboWzJGAG9"],//["https://maps.app.goo.gl/YoekkkRC8DLBtWHBA"],
 		instagram: "",
 		website: "",
 		facebook: "",
-		time: "Monday 20:00-21:30",
-		info: "A community pratice for all levels, where we go through drills and play lots of Ultimate. Everyone is welcome! We use the app \"Spond\" for updates and sign-ups.",
+		time: "Wednesday 19:30 - 21:30",
+		info: "A community pratice for all levels, where we simply play lots of Ultimate. Bring a light and a dark jersey, indoor shoes and water. Everyone is welcome! We use the app \"Spond\" for updates and sign-ups.",
 		picture: false,
 		color: "rgba(236, 162, 242, 0.1)",
 	},
