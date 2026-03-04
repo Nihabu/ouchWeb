@@ -1,5 +1,18 @@
 const newsList = [
 	{
+		header: "69 Discs North 2026",
+		text:
+			"The Norwegian Ultimate community once again ventured north into the arctic to participate in the last tournament of this seasons series. " +
+			"7 teams from all over the country, including friends from as far away as Bologna, Italy, battled it out in loose mixed format games. " + 
+			"After several exciting games with epic catches, wild scoobers, deep cuts and more or less bricked pulls, the final match was underway between " +
+			"Italy's LucaToni#1 and Norway's series leader, Framnes. Spectators in the hall and on screen got to witness LucaToni#1 go unbeaten through the tournament, ultimately securing first place. " +
+			"With Bærum Ultimate besting Furuset Brickers in a thrilling bronze final, the podium was set: LucaToni#1 in first, Framnes in second and Bærum Ultimate in third. Congratulations!" +
+			"This tournament also marked the end of the 25/26 series, with Framnes winning overall, with Furuset Brickers 2nd and Bærum Ultimate 3rd. " +
+			"A huge thank you to the organizers in Tromsø for putting on such a great tournament, and to all the teams who made the trip up north for an unforgettable weekend of Ultimate!"
+			,
+		posted: "22.10.2025"
+	},
+	{
 		header: "BrainyDisc 2025",
 		text:
 			"As the first tournament in the 25/26 series, Norway’s very first full mixed tournament took place this weekend in Bergen — and it was a huge success!" + 
