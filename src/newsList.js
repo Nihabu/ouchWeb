@@ -10,7 +10,7 @@ const newsList = [
 			"This tournament also marked the end of the 25/26 series, with Framnes winning overall, with Furuset Brickers 2nd and Bærum Ultimate 3rd. " +
 			"A huge thank you to the organizers in Tromsø for putting on such a great tournament, and to all the teams who made the trip up north for an unforgettable weekend of Ultimate!"
 			,
-		posted: "22.10.2025"
+		posted: "04.03.2026",
 	},
 	{
 		header: "BrainyDisc 2025",
