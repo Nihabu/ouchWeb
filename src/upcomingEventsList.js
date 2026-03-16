@@ -8,6 +8,15 @@ const eventsList = [
 		extraLink: null,
 		extra: null
 	},
+	{
+		date: "30. - 31. May 2026",
+		location: "Furuset, Oslo",
+		locationLink: "https://maps.app.goo.gl/zF5mPyUMDGwCryjT9",
+		title: "The Fast and the Furuset: Tokea Drift",
+		info: "The 3rd edition of Furuset Brickers' outdoor tournament. Grass, sun, and good vibes guaranteed!",
+		extraLink: null,
+		extra: null
+	},
 ];
 
 export default eventsList;
