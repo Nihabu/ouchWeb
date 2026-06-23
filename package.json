@@ -17,23 +17,16 @@
 		"@testing-library/user-event": "^13.5.0",
 		"react": "^18.3.1",
 		"react-dom": "^18.3.1",
-		"react-router-dom": "^6.23.1",
-		"react-scripts": "5.0.1",
+		"react-router-dom": "^6.30.4",
 		"web-vitals": "^2.1.4"
 	},
 	"scripts": {
 		"predeploy": "npm run build",
-		"deploy": "gh-pages -d build --cname osloultimate.com",
-		"start": "react-scripts start",
-		"build": "react-scripts build",
-		"test": "react-scripts test",
-		"eject": "react-scripts eject"
-	},
-	"eslintConfig": {
-		"extends": [
-			"react-app",
-			"react-app/jest"
-		]
+		"deploy": "gh-pages -d dist --cname osloultimate.com",
+		"start": "vite",
+		"build": "vite build",
+		"test": "vitest run",
+		"preview": "vite preview"
 	},
 	"browserslist": {
 		"production": [
@@ -48,6 +41,9 @@
 		]
 	},
 	"devDependencies": {
-		"gh-pages": "^6.2.0"
+		"@vitejs/plugin-react": "^4.7.0",
+		"gh-pages": "^6.2.0",
+		"vite": "^7.0.0",
+		"vitest": "^3.2.4"
 	}
 }
