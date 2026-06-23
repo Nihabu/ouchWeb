@@ -14,7 +14,7 @@ This project is a React single-page app used to share:
 - React 18
 - React Router 6
 - MUI System (`@mui/system` + Emotion)
-- Create React App (`react-scripts`)
+- Vite
 
 ## Getting started
 
@@ -30,13 +30,14 @@ npm install
 npm start
 ```
 
-The app starts in development mode at `http://localhost:3000`.
+The app starts in development mode at `http://localhost:5173`.
 
 ## Available scripts
 
 - `npm start` - Run the app locally in development mode
-- `npm build` - Build the production bundle
-- `npm test` - Run tests in watch mode
+- `npm run build` - Build the production bundle
+- `npm test` - Run test suite once with Vitest
+- `npm run preview` - Preview the production build locally
 - `npm run deploy` - Build and deploy to GitHub Pages via `gh-pages`
 
 ## Project structure
@@ -57,7 +58,7 @@ src/
   theme.js                Shared MUI theme
   images/                 Team photos, icons, and branding assets
 public/
-  index.html              HTML template
+  favicon.ico, manifest.json, robots.txt
 ```
 
 ## Content updates
@@ -83,5 +84,5 @@ Defined in `src/index.js`:
 ## Deployment notes
 
 - Deployment is configured through `gh-pages` in `package.json`.
-- The deploy script publishes the `build/` folder and sets CNAME to `osloultimate.com`.
+- The deploy script publishes the `dist/` folder and sets CNAME to `osloultimate.com`.
 - `CNAME` is also present in the repository root.
