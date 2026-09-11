@@ -1,7 +1,7 @@
 const teamList = [
 	{
 		team: "The Oslo Community",
-		location: ["Haugenstua Idrettshall"],
+		location: ["Haugenstua Idrettshall (Wednesday"],
 		locationLink: ["https://maps.app.goo.gl/eXTSUMoHboWzJGAG9"],//["https://maps.app.goo.gl/YoekkkRC8DLBtWHBA"],
 		instagram: "",
 		website: "",
@@ -18,7 +18,7 @@ const teamList = [
 		instagram: "https://www.instagram.com/pancake_circle_ltd/",
 		website: "https://www.pancake.no/next/p/70024/ultimate",
 		facebook: "https://www.facebook.com/groups/109301512507959",
-		time: "Thursday 19:00 - 21:00",
+		time: "TBA",
 		info: "",
 		picture: true,
 		color: "rgba(243, 5, 21, 0.1)",
@@ -30,19 +30,19 @@ const teamList = [
 		instagram: "https://www.instagram.com/brickers.ultimate.frisbee/",
 		website: "https://www.furuset.no/vare-idretter/ultimate-frisbee",
 		facebook: "https://www.facebook.com/BrickersUltimateFrisbeeOslo/",
-		time: "Tuesday 20:15 - 22:00, Thursday 21:30 - 23:00",
+		time: "Tuesday 20:00 - 22:00, Thursday 21:00 - 23:00",
 		info: "Brickers is a competitive team that welcomes players of all levels. Everyone is welcome to come try the sport with us!",
 		picture: true,
 		color: "background.blue",
 	},
 	{
 		team: "Bærum",
-		location: ["Oksenøya Skole"], //Kalvøya
-		locationLink: ["https://maps.app.goo.gl/nMDnM3cR2J4to1yb8?g_st=ipc"], //https://maps.app.goo.gl/2cAWK32D3bQWJhpN9
+		location: ["Eikelihallen"], //Kalvøya
+		locationLink: ["https://maps.app.goo.gl/pdXNWZZ6Tw8o2Pnc6"], //https://maps.app.goo.gl/2cAWK32D3bQWJhpN9
 		instagram: "https://www.instagram.com/baerumfrisbeeklubbultimate/",
 		website: "https://www.baerumfrisbeeklubb.no/next/p/70298/hjem",
 		facebook: "https://www.facebook.com/profile.php?id=61564492610385",
-		time: "Monday 20:30-22:30 ",
+		time: "Tuesday 19:30 - 21:00, Thursday 21:00 - 22:30",
 		info: "Oslos newest Ultimate team! Open for all to join. Indoor practice pending, but will be posted as soon as possible.",
 		picture: true,
 		color: "rgba(192, 210, 64, 0.1)",
