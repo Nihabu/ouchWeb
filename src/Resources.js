@@ -11,7 +11,24 @@ function Resources(props) {
 					<Box sx={{ color: "text.primary" }}>
 						<h1>Resources</h1>
 					</Box>
-					<Box className="googlegroup">
+					<Box className="Spond">
+						<h3>The Oslo Ultimate Spond Group</h3>
+						<p>
+							Many sports are organized using the app Spond, and Ultimate is no exception. 
+							The Oslo Ultimate Spond group is the main source of information for community trainings and pickup! 
+							Please click the link below to request access to the group for details on upcoming trainings and pickup games.
+						</p>
+						<p>
+							<a 
+								target="_blank"
+								rel="noopener noreferrer"
+								href="https://spond.com/landing/group/STNIV"
+							>
+								Spond link.
+							</a>
+						</p>
+					</Box>
+					{/* <Box className="googlegroup">
 						<h3>The OUCH Google Group</h3>
 						<p>
 							Not everyone is on social media, and information often gets lost when posted on several
@@ -29,7 +46,7 @@ function Resources(props) {
 							</a>{" "}
 							for official updates per email.
 						</p>
-					</Box>
+					</Box> */}
 					<Box className="urules">
 						<h3>The Rules of Ultimate</h3>
 						<p>
@@ -37,13 +54,13 @@ function Resources(props) {
 							<br></br> For a more user-friendly version with a search function, see www.urules.org.
 
 						</p>
-						{/* <p>
+						{ <p>
 							For the rules of Ultimate, we recommend using{" "}
 							<a target="_blank" rel="noopener noreferrer" href="https://urules.org/">
 								THIS
 							</a>{" "}
 							great webpage, courtesy of the legend Steinar.
-						</p> */}
+						</p> }
 					</Box>
 					<Box>
 						<h3>The Norwegian-American Sports Association (NAIF)</h3>
@@ -53,6 +70,34 @@ function Resources(props) {
 								NAIF website
 							</a>{" "}.
 						</p>
+					</Box>
+					<Box
+						className="youtube-whatisultimate"
+						sx={{
+							width: "50vw",
+							height: "100%",
+						}}
+					>
+						<h3>Instructional videos</h3>
+						<iframe 
+							width="560" 
+							height="315" 
+							src="https://www.youtube.com/embed/Ubv516MmCX0?si=RtFqsJa-G5J1753_" 
+							title="YouTube video player" 
+							frameborder="0" 
+							allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+							referrerpolicy="strict-origin-when-cross-origin" 
+							allowfullscreen
+						></iframe>
+						<iframe
+							width="560" 
+							height="315" 
+							src="https://www.youtube.com/embed/PrinnxHyWlo?si=_KnIVg0hNRnytCd0"
+							title="YouTube video player"
+							frameBorder="0"
+							allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+							referrerPolicy="strict-origin-when-cross-origin"
+						></iframe>
 					</Box>
 					<Box
 						className="ultical"
@@ -70,24 +115,6 @@ function Resources(props) {
 							height="100%"
 							frameBorder="0"
 							loading="lazy"
-						></iframe>
-					</Box>
-					<Box
-						className="youtube-whatisultimate"
-						sx={{
-							width: "50vw",
-							height: "100%",
-						}}
-					>
-						<h3>Instructional videos</h3>
-						<iframe
-							width="100%"
-							height="100%"
-							src="https://www.youtube.com/embed/PrinnxHyWlo?si=_KnIVg0hNRnytCd0"
-							title="YouTube video player"
-							frameBorder="0"
-							allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-							referrerPolicy="strict-origin-when-cross-origin"
 						></iframe>
 					</Box>
 				</Box>
