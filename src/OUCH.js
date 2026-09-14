@@ -2,7 +2,7 @@ import React from "react";
 import { ThemeProvider, Box } from "@mui/system";
 import theme from "./theme";
 import { headerHeight } from "./vars";
-import President from "./images/OUCHPresident.jpg";
+import Coordinator from "./images/OUCHPresident.jpg";
 import Website from "./images/OUCHWebsite.jpeg";
 import ClubRep_Brickers from "./images/ClubRep_Brickers.jpeg";
 import ClubRep_Ekeberg from "./images/ClubRep_Ekeberg.jpeg";
@@ -38,10 +38,10 @@ function OUCH(props) {
 							<Box sx={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
 								<img
 									style={{ width: "200px", height: "200px", borderRadius: "50%" }}
-									src={President}
-									alt="OUCH President"
+									src={Coordinator}
+									alt="OUCH Coordinator"
 								></img>
-								<p>President: Daniel</p>
+								<p>Coordinator: Daniel</p>
 							</Box>
 							<Box sx={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
 								<img
