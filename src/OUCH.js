@@ -3,10 +3,6 @@ import { ThemeProvider, Box } from "@mui/system";
 import theme from "./theme";
 import { headerHeight } from "./vars";
 import President from "./images/OUCHPresident.jpg";
-import Secretary from "./images/OUCHSecretary.jpeg";
-import SoMe from "./images/OUCHSoMe.jpeg";
-import SoMe2 from "./images/OUCHSoMe2.jpeg";
-import Outdoor from "./images/OUCHOutdoor.jpeg";
 import Website from "./images/OUCHWebsite.jpeg";
 import ClubRep_Brickers from "./images/ClubRep_Brickers.jpeg";
 import ClubRep_Ekeberg from "./images/ClubRep_Ekeberg.jpeg";
@@ -46,38 +42,6 @@ function OUCH(props) {
 									alt="OUCH President"
 								></img>
 								<p>President: Daniel</p>
-							</Box>
-							<Box sx={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
-								{/* <img
-									style={{ width: "200px", height: "200px", borderRadius: "50%" }}
-									src={Secretary}
-									alt="secretary"
-								></img> */}
-								<p>Secretary: Aurora</p>
-							</Box>
-							<Box sx={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
-								{/* <img
-									style={{ width: "200px", height: "200px", borderRadius: "50%" }}
-									src={SoMe}
-									alt="some"
-								></img> */}
-								<p>Social Media: Kayla</p>
-							</Box>
-							<Box sx={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
-								{/* <img
-									style={{ width: "200px", height: "200px", borderRadius: "50%" }}
-									src={SoMe2}
-									alt="some2"
-								></img> */}
-								<p>Social Media: Nicole</p>
-							</Box>
-							<Box sx={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
-								{/* <img
-									style={{ width: "200px", height: "200px", borderRadius: "50%" }}
-									src={Outdoor}
-									alt="outdoor"
-								></img> */}
-								<p>Outdoor Coordinator: Gayan</p>
 							</Box>
 							<Box sx={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
 								<img
