@@ -13,6 +13,17 @@ const newsList = [
 		posted: "04.03.2026",
 	},
 	{
+		header: "Desembercup 2025",
+		text:
+			"This year at Desembercup, 14 teams from all over Norway met in Fjellhamarhallen for a weekend of Ultimate action. " +
+			"For the first time to this commentators knowledge, the Norwegian Series held an official women's division, with 4 teams competing for the title. " +
+			"In the women's division, Bærum Ultimate took the crown, with Furuset Brickers in second and OSI in third, and Brickers winning the spirit prize!" +
+			"In the Open division, 8 teams faced off, with Brickers and Framnes winning their groups and then meeting in the final. " +
+			"In a close match with many calls in the final point, Framnes won on universe point, with Brickers taking second and the hosts Pancake taking third. " +
+			"Congratulations to all teams on the podium, and a special thanks to the organizers for putting on a great tournament!",
+		posted: "20.12.2025",
+	},
+	{
 		header: "BrainyDisc 2025",
 		text:
 			"As the first tournament in the 25/26 series, Norway’s very first full mixed tournament took place this weekend in Bergen — and it was a huge success!" + 
