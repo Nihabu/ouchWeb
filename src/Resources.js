@@ -99,6 +99,16 @@ function Resources(props) {
 							referrerPolicy="strict-origin-when-cross-origin"
 						></iframe>
 					</Box>
+					<Box className="pickup">
+						<h3>Pickup games</h3>
+						<p>
+							PickupUltimate.com maps pickup games around the world. Open the map at{" "}
+							<a target="_blank" rel="noopener noreferrer" href="https://pickupultimate.com/">
+								PickupUltimate.com
+							</a>
+							.
+						</p>
+					</Box>
 					<Box
 						className="ultical"
 						sx={{
