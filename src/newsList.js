@@ -1,5 +1,14 @@
 const newsList = [
 	{
+		header: "Oslo Kapp 2026",
+		text:
+			"For the fourth year in a row, Oslo Kapp was held on the fields of Ekebergsletta. 6 teams from across Norway came to duke it out, with Tromsø and Bergen's Stormkast joining the Olso area clubs. " +
+			"The weather was up and down, with some shifty rain and wind, but the players were up for the challenge. Saturday ended with Bærum and Brickers both undefeated and facing off in the morning to finish up the round robin. " +
+			"After a good night out on the town Saturday night, Bærum came out strong, defeating the Brickers to go undefeated into the final, where they faced off against Brickers again! Bærum pulled off an undefeated weekend," +
+			" taking their second consecutive victory at Oslo Kapp. Third place went to Pancake with their triumphant return after a few tournaments off. Tromsø walked away with a well deserved Spirit win.",
+		posted: "25.08.2026",
+	},
+	{
 		header: "The Fast and the Furuset: Tokea Drift",
 		text:
 			"Furuset Brickers were please to host their third annual Fast/Furuset themed tournament! This year saw an uptick to a total of of 10 teams participating. " +
