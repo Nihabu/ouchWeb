@@ -66,7 +66,7 @@ function Resources(props) {
 						<h3>The Norwegian-American Sports Association (NAIF)</h3>
 						<p>NAIF is the top level for all things disc sport in Norway, incl. Discgolf and Ultimate.<br></br>
 							For official news see the{" "}
-							<a target="_blank" rel="noopener noreferrer" href="https://amerikanskeidretter.no/disksport/">
+							<a target="_blank" rel="noopener noreferrer" href="https://amerikanskeidretter.no/disksport/ultimate/">
 								NAIF website
 							</a>{" "}.
 						</p>
