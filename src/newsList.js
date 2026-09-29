@@ -1,5 +1,36 @@
 const newsList = [
 	{
+		header: "Oslo Kapp 2026",
+		text:
+			"For the fourth year in a row, Oslo Kapp was held on the fields of Ekebergsletta. 6 teams from across Norway came to duke it out, with Tromsø and Bergen's Stormkast joining the Olso area clubs. " +
+			"The weather was up and down, with some shifty rain and wind, but the players were up for the challenge. Saturday ended with Bærum and Brickers both undefeated and facing off in the morning to finish up the round robin. " +
+			"After a good night out on the town Saturday night, Bærum came out strong, defeating the Brickers to go undefeated into the final, where they faced off against Brickers again! Bærum pulled off an undefeated weekend," +
+			" taking their second consecutive victory at Oslo Kapp. Third place went to Pancake with their triumphant return after a few tournaments off. Tromsø walked away with a well deserved Spirit win.",
+		posted: "25.08.2026",
+	},
+	{
+		header: "The Fast and the Furuset: Tokea Drift",
+		text:
+			"Furuset Brickers were please to host their third annual Fast/Furuset themed tournament! This year saw an uptick to a total of of 10 teams participating. " +
+			"Teams from Tromsø, Bergen, Oslo, Stockholm and even Szczecin, Poland made the trip to Furuset of the best weekend of Ultimate available. " +
+			"Framnes IL, since winning the Norwegian National Championship in 2025, used Tokea Drift as a warm-up tournament for the upcoming World Ultimate Club Championships in July. " +
+			"As expected given their form and preparation, Framnes IL took the win, Solklar from Stockholm won the beer race, and BSI took spirit, all three in resounding fashion. " +
+			"One might say that Brickers took this year as a year to focus on tournament organization... " +
+			"Big shoutout to Furuset IF Ice Hockey for volunteering: helping with scoring, grilling and making sure all the players had a great experience. Hope to see you all next summer for Fast & Furuset. ",
+			posted: "05.06.2026",
+	},
+	{
+		header: "The Norwegian National Championship 2026",
+		text:
+			"This year Framnes IL hosted the Norwegian National Championship in Sotra, Bergen. 12 teams from all over Norway met for a weekend of Ultimate. " +
+			"Framnes IL brought a total of 4 teams to the tournament, cementing themselves as the country's best recruiters! In addition, we saw Sædalen IL make their first appearance in the Norwegian Ultimate scene. " +
+			"Split into two groups of 6, the teams fought their way through the groups before diving into the quarter finals Sunday morning. " +
+			"Framnes IL and Brickers FIF won their respective groups cleanly, setting themselves up for the eventual face-off in the final. " +
+			"The volume in the crowd was turned up to 11 with the locals cheering for the hosts and the Oslo teams cheering for a good match. " +
+			"In the end, Brickers FIF took the win over Framnes IL 12-10, with Bærum taking 3rd place. Two years in a row we have Brickers, Framnes and Bærum on the podium. Could a new team enter the fold this next season? ",
+			posted: "06.04.2026",
+	},
+	{
 		header: "69 Discs North 2026",
 		text:
 			"The Norwegian Ultimate community once again ventured north into the arctic to participate in the last tournament of this seasons series. " +
@@ -11,6 +42,17 @@ const newsList = [
 			"A huge thank you to the organizers in Tromsø for putting on such a great tournament, and to all the teams who made the trip up north for an unforgettable weekend of Ultimate!"
 			,
 		posted: "04.03.2026",
+	},
+	{
+		header: "Desembercup 2025",
+		text:
+			"This year at Desembercup, 14 teams from all over Norway met in Fjellhamarhallen for a weekend of Ultimate action. " +
+			"For the first time to this commentators knowledge, the Norwegian Series held an official women's division, with 4 teams competing for the title. " +
+			"In the women's division, Bærum Ultimate took the crown, with Furuset Brickers in second and OSI in third, and Brickers winning the spirit prize! " +
+			"In the Open division, 8 teams faced off, with Brickers and Framnes winning their groups and then meeting in the final. " +
+			"In a close match with many calls in the final point, Framnes won on universe point, with Brickers taking second and the hosts Pancake taking third. " +
+			"Congratulations to all teams on the podium, and a special thanks to the organizers for putting on a great tournament!",
+		posted: "20.12.2025",
 	},
 	{
 		header: "BrainyDisc 2025",
