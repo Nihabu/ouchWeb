@@ -1,5 +1,16 @@
 const newsList = [
 	{
+		header: "The Norwegian National Championship 2026",
+		text:
+			"This year Framnes IL hosted the Norwegian National Championship in Sotra, Bergen. 12 teams from all over Norway met for a weekend of Ultimate." +
+			"Framnes IL brought a total of 4 teams to the tournament, cementing themselves as the country's best recruiters! In addition, we saw Sædalen IL make their first appearance in the Norwegian Ultimate scene." +
+			"Split into two groups of 6, the teams fought their way through the groups before diving into the quarter finals Sunday morning." +
+			"Framnes IL and Brickers FIF won their respective groups cleanly, setting themselves up for the eventual face-off in the final." +
+			"The volume in the crowd was turned up to 11 with the locals cheering for the hosts and the Oslo teams cheering for a good match." +
+			"In the end, Brickers FIF took the win over Framnes IL 12-10, with Bærum taking 3rd place. Two years in a row we have Brickers, Framnes and Bærum on the podium. Could a new team enter the fold this next season?",
+			posted: "06.04.2026",
+	},
+	{
 		header: "69 Discs North 2026",
 		text:
 			"The Norwegian Ultimate community once again ventured north into the arctic to participate in the last tournament of this seasons series. " +
