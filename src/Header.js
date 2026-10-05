@@ -83,6 +83,18 @@ function Header(props) {
 					>
 						OUCH
 					</NavLink>
+					<NavLink
+						to="/vahloween"
+						style={({ isActive }) => {
+							return {
+								color: isActive ? "#E47313" : "#03B7D0",
+								fontWeight: isActive ? "bold" : "",
+								textDecoration: isActive ? "underline" : "none",
+							};
+						}}
+					>
+						Vahl-oween
+					</NavLink>
 				</Box>
 			</Box>
 		</ThemeProvider>
