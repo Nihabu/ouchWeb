@@ -26,7 +26,7 @@ const router = createHashRouter([
 		errorElement: <ErrorComponent />,
 		children: [
 			{
-				path: "/",
+				index: true,
 				element: <MainBody />,
 			},
 			// {
@@ -34,12 +34,12 @@ const router = createHashRouter([
 			// 	element: <MainBody />,
 			// },
 			{
-				path: "/resources",
+				path: "resources",
 				element: <Resources />,
 			},
-			{ path: "/news", element: <News /> },
-			{ path: "/ouch", element: <OUCH /> },
-			{ path: "/vahloween", element: <Vahloween />},
+			{ path: "news", element: <News /> },
+			{ path: "ouch", element: <OUCH /> },
+			{ path: "vahloween", element: <Vahloween /> },
 			//{ path: "/*", element: <NotFound /> },
 		],
 	},
