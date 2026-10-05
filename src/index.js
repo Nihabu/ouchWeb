@@ -9,6 +9,7 @@ import { headerHeight } from "./vars";
 import MainBody from "./MainBody";
 import News from "./News";
 import OUCH from "./OUCH";
+import Vahloween from "./Vahloween";
 
 function Layout() {
 	return (
@@ -38,6 +39,7 @@ const router = createBrowserRouter([
 			},
 			{ path: "/news", element: <News /> },
 			{ path: "/ouch", element: <OUCH /> },
+			{ path: "/vahloween", element: <Vahloween />},
 			//{ path: "/*", element: <NotFound /> },
 		],
 	},
