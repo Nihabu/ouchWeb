@@ -4,8 +4,8 @@ const eventsList = [
 		location: "Vahl Flerbrukshall",
 		locationLink: "https://maps.app.goo.gl/NtHZ9qDwYh2xFpKw9",
 		title: "Valh-oween Hat Tournament",
-                info: "Furuset Brickers present a fun and friendly hat tournament in the middle of Oslo! Halloween themed, of course. Open to beginners and experienced players alike. Details to come.",
-		extraLink: null,
+                info: "Furuset Brickers present a fun and friendly hat tournament in the middle of Oslo! Halloween themed, of course. Open to beginners and experienced players alike. Checkout the Vahl-oween tab for details!",
+		extraLink: "https://osloultimate.com/#/vahloween",
 		extra: null
 	},
 	{
