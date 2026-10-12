@@ -19,7 +19,19 @@ function Vahloween(props) {
             href: "https://maps.app.goo.gl/NtHZ9qDwYh2xFpKw9",
         },
         { label: "When", value: "31. October 2026, 13:30-18:00" },
-        { label: "Signups", value: "Open Oct. 12th -> Oct. 28th" },
+        {
+            label: "Signups: Open until October 28th.",
+            value: "Google form",
+            href: "https://docs.google.com/forms/d/1dR5vEXRIFF86zTHmmTG7DlXsXv8wqGWi2iSDmvnyN8g/edit",
+        },
+        {
+            label: "Cost",
+            value: [
+                "50kr per player",
+                "Free for new players (first time playing Ultimate)",
+                "75kr at the door",
+            ],
+        },
         { label: "Bring", value: "Indoor shoes, water bottle, and costume (or dark and light but please costume!)" },
         { label: "Hosted by", value: "Furuset Brickers" },
     ];
@@ -68,6 +80,22 @@ function Vahloween(props) {
                 >
                     <Box
                         sx={{
+                            mb: 2,
+                            px: 2,
+                            py: 1.5,
+                            borderRadius: 2,
+                            fontWeight: 700,
+                            textAlign: "center",
+                            background: "linear-gradient(90deg, #ff8c42 0%, #ffd166 100%)",
+                            color: "#4a2400",
+                            border: "1px solid rgba(102, 59, 24, 0.22)",
+                            boxShadow: "0 6px 14px rgba(102, 59, 24, 0.14)",
+                        }}
+                    >
+                        Signups are now open!
+                    </Box>
+                    <Box
+                        sx={{
                             p: { xs: 2, sm: 3 },
                             borderRadius: 3,
                             background:
@@ -102,6 +130,12 @@ function Vahloween(props) {
                                             <a href={item.href} target="_blank" rel="noopener noreferrer" style={{ color: "inherit" }}>
                                                 {item.value}
                                             </a>
+                                        ) : Array.isArray(item.value) ? (
+                                            <Box component="ul" sx={{ mt: 0, mb: 0, pl: 2.5 }}>
+                                                {item.value.map((valueLine) => (
+                                                    <li key={valueLine}>{valueLine}</li>
+                                                ))}
+                                            </Box>
                                         ) : (
                                             item.value
                                         )}
