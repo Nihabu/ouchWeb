@@ -34,6 +34,7 @@ function Vahloween(props) {
         },
         { label: "Bring", value: "Indoor shoes, water bottle, and costume (or dark and light but please costume!)" },
         { label: "Hosted by", value: "Furuset Brickers" },
+        { label: "Who can join?", value: "All players over the age of 16 are welcome to join, regardless of experience level." },
     ];
 
     const highlights = [
