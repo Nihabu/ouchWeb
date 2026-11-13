@@ -4,7 +4,7 @@ import theme from "./theme";
 import facebook_icon from "./images/facebook_icon.png";
 import spond_icon from "./images/spond_icon.png";
 
-function Vahloween(props) {
+function DecemberHat(props) {
     const iconStyle = {
         width: 36,
         height: 36,
@@ -15,14 +15,14 @@ function Vahloween(props) {
     const eventInfo = [
         {
             label: "Where",
-            value: "Vahl Flerbrukshall, Oslo",
-            href: "https://maps.app.goo.gl/NtHZ9qDwYh2xFpKw9",
+            value: "Jordal Idrettshall, Oslo",
+            href: "https://maps.app.goo.gl/XKbv6b1hYmtNqi1L7",
         },
-        { label: "When", value: "31. October 2026, 13:30-18:00" },
+        { label: "When", value: "12. December 2026, 13:30-18:00" },
         {
-            label: "Signups: Open until October 28th.",
+            label: "Signups: Open until December 10th.",
             value: "Google form",
-            href: "https://docs.google.com/forms/d/1dR5vEXRIFF86zTHmmTG7DlXsXv8wqGWi2iSDmvnyN8g/edit",
+            href: "https://docs.google.com/forms/d/e/1FAIpQLSe3W4lgNUGTYQ79fMET9PCW1M6QF5SvppzRhMMlug5PvD21wg/viewform",
         },
         {
             label: "Cost",
@@ -38,11 +38,11 @@ function Vahloween(props) {
     ];
 
     const highlights = [
-        "Join us for Halloween Hat Tournament!🥏",
+        "Join us for December Hat Tournament!🥏",
         "No team needed - just sign up, show up and play!😉",
         "No experience necessary - players of all skill levels are welcome.💪",
-        "👻 Costumes are highly encouraged!",
-        "There will be a small prize for the best costume 🏆🎃",
+        "🎄Christmas spirit is highly encouraged! Bring your Santa hat, reindeer antlers, festive outfit or other Christmas accessories, but make sure you can still run and play safely.",
+        "There will be a small prize for the most Christmas-themed outfit! 🏆🎁",
     ];
 
     const faqs = [
@@ -62,10 +62,6 @@ function Vahloween(props) {
             question: "What do I win if I win the costume contest?",
             answer: "A special prize, to be determined by the organizers.",
         },
-        {
-            question: "Will there be an afterparty?",
-            answer: "Yes, there will be an afterparty! Details will be announced closer to the event.",
-        },
     ];
 
     return (
@@ -79,22 +75,28 @@ function Vahloween(props) {
                         pb: 6,
                     }}
                 >
-                    <Box
-                        sx={{
-                            mb: 2,
-                            px: 2,
-                            py: 1.5,
-                            borderRadius: 2,
-                            fontWeight: 700,
-                            textAlign: "center",
-                            background: "linear-gradient(90deg, #ff8c42 0%, #ffd166 100%)",
-                            color: "#4a2400",
-                            border: "1px solid rgba(102, 59, 24, 0.22)",
-                            boxShadow: "0 6px 14px rgba(102, 59, 24, 0.14)",
-                        }}
-                    >
-                        Signups are now open!
-                    </Box>
+					<Box
+						sx={{
+							mb: 2,
+							px: 2,
+							py: 1.5,
+							borderRadius: 2,
+							fontWeight: 700,
+							textAlign: "center",
+							background: "linear-gradient(90deg, #ff8c42 0%, #ffd166 100%)",
+							color: "#4a2400",
+							border: "1px solid rgba(102, 59, 24, 0.22)",
+							boxShadow: "0 6px 14px rgba(102, 59, 24, 0.14)",
+							display: "block",
+							textDecoration: "none",
+						}}
+						component="a"
+						href="https://docs.google.com/forms/d/e/1FAIpQLSe3W4lgNUGTYQ79fMET9PCW1M6QF5SvppzRhMMlug5PvD21wg/viewform"
+						target="_blank"
+						rel="noopener noreferrer"
+					>
+						Signups are now open!
+					</Box>
                     <Box
                         sx={{
                             p: { xs: 2, sm: 3 },
@@ -105,8 +107,8 @@ function Vahloween(props) {
                             mb: 3,
                         }}
                     >
-                        <h1 style={{ marginTop: 0, marginBottom: 8 }}>Vahl-oween</h1>
-                        <p style={{ margin: 0 }}>Halloween hat tournament for all experience levels.</p>
+                        <h1 style={{ marginTop: 0, marginBottom: 8 }}>DecemberHat</h1>
+                        <p style={{ margin: 0 }}>December hat tournament for all experience levels.</p>
                         <Box
                             sx={{
                                 mt: 2,
@@ -171,7 +173,7 @@ function Vahloween(props) {
                                 pb: 5,
                             }}
                         >
-                            <a
+                            {/* <a
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 href="https://www.facebook.com/events/1069617655703926/"
@@ -184,11 +186,11 @@ function Vahloween(props) {
                             >
                                 <img src={facebook_icon} style={iconStyle} alt="facebook icon" />
                                 Facebook Event
-                            </a>
+                            </a> */}
                             <a
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                href="https://spond.com/client/sponds/960F1BC741654C62982C4FD5C0EC90CB"
+                                href="https://spond.com/client/sponds/46F7EEB15BAB49E7BA3B1D3EAE4E2246"
                                 style={{
                                     color: "inherit",
                                     display: "inline-flex",
@@ -235,7 +237,7 @@ function Vahloween(props) {
     );
 }
 
-export default Vahloween;
+export default DecemberHat;
 
 
 {/** https://docs.google.com/forms/d/e/1FAIpQLScQJmIpOW1eKK-8VPF3i5cmOCrXA6BEye4Hrs5FHaEuKg6ijw/viewform?usp=header */}

@@ -9,7 +9,7 @@ import { headerHeight } from "./vars";
 import MainBody from "./MainBody";
 import News from "./News";
 import OUCH from "./OUCH";
-import Vahloween from "./Vahloween";
+import DecemberHat from "./DecemberHat";
 
 function Layout() {
 	return (
@@ -39,7 +39,7 @@ const router = createHashRouter([
 			},
 			{ path: "news", element: <News /> },
 			{ path: "ouch", element: <OUCH /> },
-			{ path: "vahloween", element: <Vahloween /> },
+			{ path: "decemberHat", element: <DecemberHat /> },
 			//{ path: "/*", element: <NotFound /> },
 		],
 	},

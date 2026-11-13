@@ -84,7 +84,7 @@ function Header(props) {
 						OUCH
 					</NavLink>
 					<NavLink
-						to="/vahloween"
+						to="/decemberHat"
 						style={({ isActive }) => {
 							return {
 								color: isActive ? "#E47313" : "#03B7D0",
@@ -93,7 +93,7 @@ function Header(props) {
 							};
 						}}
 					>
-						Vahl-oween
+						DecemberHat
 					</NavLink>
 				</Box>
 			</Box>
