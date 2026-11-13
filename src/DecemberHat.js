@@ -41,8 +41,8 @@ function DecemberHat(props) {
         "Join us for December Hat Tournament!🥏",
         "No team needed - just sign up, show up and play!😉",
         "No experience necessary - players of all skill levels are welcome.💪",
-        "👻 Costumes are highly encouraged!",
-        "There will be a small prize for the best costume 🏆🎃",
+        "🎄Christmas spirit is highly encouraged! Bring your Santa hat, reindeer antlers, festive outfit or other Christmas accessories, but make sure you can still run and play safely.",
+        "There will be a small prize for the most Christmas-themed outfit! 🏆🎁",
     ];
 
     const faqs = [
@@ -61,10 +61,6 @@ function DecemberHat(props) {
         {
             question: "What do I win if I win the costume contest?",
             answer: "A special prize, to be determined by the organizers.",
-        },
-        {
-            question: "Will there be an afterparty?",
-            answer: "Yes, there will be an afterparty! Details will be announced closer to the event.",
         },
     ];
 
@@ -177,7 +173,7 @@ function DecemberHat(props) {
                                 pb: 5,
                             }}
                         >
-                            <a
+                            {/* <a
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 href="https://www.facebook.com/events/1069617655703926/"
@@ -190,11 +186,11 @@ function DecemberHat(props) {
                             >
                                 <img src={facebook_icon} style={iconStyle} alt="facebook icon" />
                                 Facebook Event
-                            </a>
+                            </a> */}
                             <a
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                href="https://spond.com/client/sponds/960F1BC741654C62982C4FD5C0EC90CB"
+                                href="https://spond.com/client/sponds/46F7EEB15BAB49E7BA3B1D3EAE4E2246"
                                 style={{
                                     color: "inherit",
                                     display: "inline-flex",
